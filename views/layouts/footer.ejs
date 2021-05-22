@@ -1,0 +1,75 @@
+    
+    <div class="pt-3 pb-3 d-flex justify-content-between foot">
+        <div class="copy d-flex">
+            <div class="copy_img">
+                <img src="/images/drc.png" />
+            </div>
+            <div class="copy_txt align-middle">
+                <p>Tous droits réservés Emergence</p>
+            </div>
+        </div>
+        <div class="devby">
+            <p>Developped by Emergence</p>
+        </div>
+    </div>
+    
+    <!-- END OVERLAY -->
+    <!-- BEGIN VENDOR JS -->
+    <script src="/assets/plugins/feather-icons/feather.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+    <!--  A polyfill for browsers that don't support ligatures: remove liga.js if not needed-->
+    <script src="/assets/plugins/liga.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/modernizr.custom.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/popper/umd/popper.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/jquery-actual/jquery.actual.min.js"></script>
+    <script src="/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/select2/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/classie/classie.js"></script>
+    <script src="/assets/plugins/nvd3/lib/d3.v3.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/nv.d3.min.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/utils.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/tooltip.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/interactiveLayer.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/models/axis.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/models/line.js" type="text/javascript"></script>
+    <script src="/assets/plugins/nvd3/src/models/lineWithFocusChart.js" type="text/javascript"></script>
+    <script src="/assets/plugins/rickshaw/rickshaw.min.js"></script>
+    <script src="/assets/plugins/mapplic/js/hammer.min.js"></script>
+    <script src="/assets/plugins/mapplic/js/jquery.mousewheel.js"></script>
+    <script src="/assets/plugins/mapplic/js/mapplic.js"></script>
+    <script src="/assets/js/dashboard.js" type="text/javascript"></script>
+    <script src="/assets/js/chart.js" type="text/javascript"></script>
+    <script src="/assets/js/scripts.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery.dataTables.min.js"></script>
+    <script src="/assets/js/dataTables.bootstrap4.min.js"></script>
+    
+    <script src="/assets/js/dashboard.js" type="text/javascript"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        // Creating map options
+        var mapOptions = {
+           center: [17.385044, 78.486671],
+           zoom: 10
+        }
+        
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
+        
+        // Creating a Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+        
+        // Adding layer to the map
+        map.addLayer(layer);
+     </script>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script> -->
+  </body>
+</html>

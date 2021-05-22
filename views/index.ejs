@@ -1,0 +1,447 @@
+<%- include('layouts/header.ejs') %>
+
+
+    <div class="title">
+        <div class="pt-5 pb-5 d-flex justify-content-between">
+          <h1>Suivis</h1>
+          <ul>
+            <% maladie.forEach(function(mal) { %>
+              <li> <a href="/api/v1/provinces/<%= mal._id %>"><%= mal.maladie %></a></li>
+            <% }); %>
+          </ul>
+
+        </div>
+    </div>
+    <div id = "map"></div>
+
+    <div class="row mt-5">
+
+      <div class="col-md-6 home_col">
+
+        <div class="table-responsive">
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Maladies</th>
+                <th scope="col">Confirmes</th>
+                <th scope="col">Gueris</th>
+                <th scope="col">Morts</th>
+              </tr>
+          </thead>
+
+          <tbody>
+            <% data.results.forEach(function(province) { %>
+
+              <tr>
+
+                <% if( province.maladie !== "NAISSANCE" ){ %>
+                  <td><%= province.maladie %></td>
+                  <td><%= province.Confirmes %></td>
+                  <td><%= province.Gueris %></td>
+                  <td><%= province.Deces %></td>
+                <% } %>
+
+              </tr>
+
+            <% }); %>
+
+          </tbody>
+                
+          </table>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-6 home_col">
+
+        <div class="table-responsive">
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Intitulé</th>
+                <th scope="col">Naissance</th>
+                <th scope="col">Mort Né</th>
+              </tr>
+          </thead>
+
+          <tbody>
+            <% data.results.forEach(function(province) { %>
+
+              <tr>
+
+                <% if( province.maladie === "NAISSANCE" ){ %>
+                  <td><%= province.maladie %> </td>
+                  <td><%= province.Naissance %> </td>
+                  <td><%= province.MortNe %></td>
+                <% } %>
+              </tr>
+
+            <% }); %>
+
+          </tbody>
+                
+          </table>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="card">
+          <div class="card-body">
+            <canvas id="chLine"></canvas>
+          </div>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-body">
+              <canvas id="chBar"></canvas>
+          </div>
+        </div>
+
+        <div class="card mt-5">
+          <div class="card-body">
+              <canvas id="chDonut1"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+      
+<%- include('layouts/footer.ejs') %>
+
+
+<script>
+  // chart colors
+var colors = ['#007bff','#28a745','#333333','#c3e6cb','#dc3545','#6c757d'];
+
+/* large line chart */
+var chLine = document.getElementById("chLine");
+var chartData = {
+labels: ["S", "M", "T", "W", "T", "F", "S"],
+datasets: [{
+data: [589, 445, 483, 503, 689, 692, 634],
+backgroundColor: 'transparent',
+borderColor: colors[0],
+borderWidth: 4,
+pointBackgroundColor: colors[0]
+},
+{
+data: [639, 465, 493, 478, 589, 632, 674],
+backgroundColor: colors[3],
+borderColor: colors[1],
+borderWidth: 4,
+pointBackgroundColor: colors[1]
+}]
+};
+
+if (chLine) {
+new Chart(chLine, {
+type: 'line',
+data: chartData,
+options: {
+scales: {
+yAxes: [{
+  ticks: {
+    beginAtZero: false
+  }
+}]
+},
+legend: {
+display: false
+}
+}
+});
+}
+
+</script>
+
+
+<script>
+/* chart.js chart examples */
+
+// chart colors
+var colors = ['#007bff','#28a745','#444444','#c3e6cb','#dc3545','#6c757d'];
+
+var chBar = document.getElementById("chBar");
+var chartData = {
+  labels: ["S", "M", "T", "W", "T", "F", "S"],
+  datasets: [{
+    data: [589, 445, 483, 503, 689, 692, 634],
+    backgroundColor: colors[0]
+  },
+  {
+    data: [209, 245, 383, 403, 589, 692, 580],
+    backgroundColor: colors[1]
+  },
+  {
+    data: [489, 135, 483, 290, 189, 603, 600],
+    backgroundColor: colors[2]
+  },
+  {
+    data: [639, 465, 493, 478, 589, 632, 674],
+    backgroundColor: colors[4]
+  }]
+};
+
+if (chBar) {
+  new Chart(chBar, {
+  type: 'bar',
+  data: chartData,
+  options: {
+    scales: {
+      xAxes: [{
+        barPercentage: 0.4,
+        categoryPercentage: 0.5
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: false
+        }
+      }]
+    },
+    legend: {
+      display: false
+    }
+  }
+  });
+}
+
+
+
+// chart colors
+var colors = ['#007bff','#28a745','#333333','#c3e6cb','#dc3545','#6c757d'];
+
+/* 3 donut charts */
+var donutOptions = {
+  cutoutPercentage: 85, 
+  legend: {position:'bottom', padding:5, labels: {pointStyle:'circle', usePointStyle:true}}
+};
+
+// donut 1
+var chDonutData1 = {
+    labels: ['Bootstrap', 'Popper', 'Other'],
+    datasets: [
+      {
+        backgroundColor: colors.slice(0,3),
+        borderWidth: 0,
+        data: [74, 11, 40]
+      }
+    ]
+};
+
+var chDonut1 = document.getElementById("chDonut1");
+if (chDonut1) {
+  new Chart(chDonut1, {
+      type: 'pie',
+      data: chDonutData1,
+      options: donutOptions
+  });
+}
+
+</script>
+
+
+
+<script>
+      //console.log("My : ", tabData);
+ 
+
+  //console.log("My : ", tabData[0]);
+  //var opinions = tabData;
+  /* 
+      [{
+
+        "Maladies":"Ebola",
+        "Confirmes":10,
+        "Gueris":30,
+        "Morts": 50,
+        "Naissance": 32
+      },
+
+      {
+
+        "Maladies":"Covid-19",
+        "Confirmes":10,
+        "Gueris":45,
+        "Morts":78,
+        "Naissance": 32
+      },
+
+      {
+
+        "Maladies":"Cholera",
+        "Confirmes":45,
+        "Gueris":69,
+        "Morts":26,
+        "Naissance": 32
+      },
+
+      {
+
+        "Maladies":"Tuberculose",
+        "Confirmes":36,
+        "Gueris":96,
+        "Morts":14,
+        "Naissance": 32
+      },
+      {
+        "Maladies":"Typhoide",
+        "Confirmes":57,
+        "Gueris":23,
+        "Morts":31,
+        "Naissance": 32
+      }];
+*/
+
+
+
+var sections = [
+      {
+
+        "Province":"Bas-Uele",
+        "Confirmes":36,
+        "Gueris":96,
+        "Morts":14,
+        "Naissance": 32
+      },
+
+      {
+        "Province":"Haut-Uele",
+        "Confirmes":36,
+        "Gueris":96,
+        "Morts":14,
+        "Naissance": 32
+      },
+
+      {
+        "Province":"Kinshasa",
+        "Confirmes":36,
+        "Gueris":96,
+        "Morts":14,
+        "Naissance": 32
+      },
+
+      {
+        "Province":"Kongo-Centrale",
+        "Confirmes":36,
+        "Gueris":96,
+        "Morts":14,
+        "Naissance": 32
+      }
+    
+];
+
+
+function format ( table_id ) {
+    return '<table class="table table-striped tab_nested" id="msf_'+table_id+'">'+
+    '<thead><tr><th>Provinces</th><th>Confirmes</th><th>Gueris</th><th>Morts</th><th>Naissance</th></tr></thead>'+
+    '<tr>'+
+      '<td></td>'+
+      '<td></td>'+
+      '<td></td>'+
+      '<td></td>'+
+    '</tr>'+
+    '<tr>'+
+      '<td></td>'+
+      '<td></td>'+
+      '<td></td>'+
+      '<td></td>'+
+    '</tr>'+
+    '</table>';
+  }
+var iTableCounter=1;
+var oInnerTable;
+
+$(document).ready(function() {
+  TableHtml = $('#msf').html();
+  
+    var table = $('#msf').DataTable( {
+      paging    : true,
+      lengthChange: true,
+      "language": {
+        "lengthMenu": "Afficher _MENU_ ",
+        searchPlaceholder: "Recherche",
+        "sSearch": " "
+      },
+      
+      searching   : true,
+      ordering   : true,
+      info       : true,
+      autoWidth   : false, 
+      rowId: 'Maladies', 
+      data: opinions, 
+      columns:[ 
+        {   className:      'details-control',
+            orderable:      false,
+            data:           null,
+            defaultContent: '' 
+        },
+        //for(let i=0; i <= data.length; i++){
+
+          { 
+          "render" : function (data, type, JsonResultRow, meta) {
+                            return '<div><div class="user_name"><p>'+JsonResultRow.Maladie+'</p></div></div>';
+                        }
+          },
+        { data:'Confirmes'}, 
+        { data:'Gueris'},
+        { data:'Morts'},
+        { data:'Naissance'}
+
+        //}
+        
+      ],
+      order: [[1, 'asc']]
+    } );
+     $('#msf tbody').on('click', 'td.details-control', function () {
+         var tr = $(this).closest('tr');
+         var row = table.row( tr );   
+         
+         if ( row.child.isShown() ) {
+             //  This row is already open - close it
+            row.child.hide();
+            tr.removeClass('shown');
+         }
+         else {
+            // Open this row
+            row.child( format(iTableCounter) ).show();
+            tr.addClass('shown');
+            // try datatable stuff
+            oInnerTable = $('#msf_' + iTableCounter).dataTable({
+                data: sections, 
+                autoWidth: true, 
+                deferRender: true, 
+                info: false, 
+                lengthChange: false, 
+                ordering: true, 
+                paging: false, 
+                scrollX: false, 
+                scrollY: false, 
+                searching: false, 
+                columns:[ 
+                   { 
+
+                      "render" : function (data, type, JsonResultRow, meta) {
+                            return '<div><div class="user_name"><p>'+JsonResultRow.Province+'</p></div></div>';
+                        }
+
+                   },
+                   { data:'Confirmes' }, 
+                   { data:'Gueris' },
+                   { data:'Morts' },
+                   { data:'Naissance' },
+                 ]
+            });
+            iTableCounter = iTableCounter + 1;
+        }
+     });
+} );
+
+</script>
+

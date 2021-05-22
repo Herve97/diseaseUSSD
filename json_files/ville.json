@@ -1,0 +1,261 @@
+[
+    {
+        "nom": "Buta",
+        "province": "60a560e52b2bb41a1c8bd2e9",
+        "code": "01",
+        "lat": 2.7932581,
+        "long": 24.7287054
+    },
+    {
+        "nom": "Mbandaka",
+        "province": "60a560e52b2bb41a1c8bd2ea",
+        "code": "01",
+        "lat": 0.0470732,
+        "long": 18.2564803
+    },
+    {
+        "nom": "Likasi",
+        "province": "60a560e52b2bb41a1c8bd2eb",
+        "code": "01",
+        "lat": -10.9891601,
+        "long": 26.7397418
+    },
+    {
+        "nom": "Lubumbashi",
+        "province": "60a560e52b2bb41a1c8bd2eb",
+        "code": "02",
+        "lat": -11.6642316,
+        "long": 27.4826264
+    },
+    {
+        "nom": "Kamina",
+        "province": "60a560e52b2bb41a1c8bd2ec",
+        "code": "01",
+        "lat": -8.7351826,
+        "long": 25.0032201
+    },
+    {
+        "nom": "Isiro",
+        "province": "60a560e52b2bb41a1c8bd2ed",
+        "code": "01",
+        "lat": 2.7742702,
+        "long": 27.6208169
+    },
+    {
+        "nom": "Bunia",
+        "province": "60a560e52b2bb41a1c8bd2ee",
+        "code": "01",
+        "lat": 1.5557893,
+        "long": 30.2519376
+    },
+    {
+        "nom": "Tshikapa",
+        "province": "60a560e52b2bb41a1c8bd2ef",
+        "code": "01",
+        "lat": -6.4230495,
+        "long": 20.7887691
+    },
+    {
+        "nom": "Kananga",
+        "province": "60a560e52b2bb41a1c8bd2f0",
+        "code": "01",
+        "lat": -5.8951725,
+        "long": 22.408589
+    },
+    {
+        "nom": "Mbujimayi",
+        "province": "60a560e52b2bb41a1c8bd2f1",
+        "code": "01",
+        "lat": -6.1258942,
+        "long": 23.5998111
+    },
+    {
+        "nom": "Kinshasa",
+        "province": "60a560e52b2bb41a1c8bd2f2",
+        "code": "01",
+        "lat": -4.3217055,
+        "long": 15.3125974
+    },
+    {
+        "nom": "Boma",
+        "province": "60a560e52b2bb41a1c8bd2f3",
+        "code": "01",
+        "lat": -5.7628942,
+        "long": 13.0308324
+    },
+    {
+        "nom": "Matadi",
+        "province": "60a560e52b2bb41a1c8bd2f3",
+        "code": "02",
+        "lat": -5.7974001,
+        "long": 13.4948203
+    },
+    {
+        "nom": "Kenge",
+        "province": "60a560e52b2bb41a1c8bd2f4",
+        "code": "01",
+        "lat": -4.8059503,
+        "long": 17.038692
+    },
+    {
+        "nom": "Bandundu",
+        "province": "60a560e52b2bb41a1c8bd2f5",
+        "code": "01",
+        "lat": -3.3201862,
+        "long": 17.3774958
+    },
+    {
+        "nom": "Kikwit",
+        "province": "60a560e52b2bb41a1c8bd2f5",
+        "code": "02",
+        "lat": -5.0383083,
+        "long": 18.8178447
+    },
+    {
+        "nom": "Kabinda",
+        "province": "60a560e52b2bb41a1c8bd2f6",
+        "code": "01",
+        "lat": -6.4044023,
+        "long": 24.6475773
+    },
+    {
+        "nom": "Mwene-Ditu",
+        "province": "60a560e52b2bb41a1c8bd2f6",
+        "code": "02",
+        "lat": -7.006496,
+        "long": 23.4487976
+    },
+    {
+        "nom": "Kolwezi",
+        "province": "60a560e52b2bb41a1c8bd2f7",
+        "code": "01",
+        "lat": -10.738642,
+        "long": 25.4948244
+    },
+    {
+        "nom": "Inongo",
+        "province": "60a560e52b2bb41a1c8bd2f8",
+        "code": "01",
+        "lat": -1.9253353,
+        "long": 18.2863998
+    },
+    {
+        "nom": "Kindu",
+        "province": "60a560e52b2bb41a1c8bd2f9",
+        "code": "01",
+        "lat": -2.3926675,
+        "long": 25.8309481
+    },
+    {
+        "nom": "Lisala",
+        "province": "60a560e52b2bb41a1c8bd2fa",
+        "code": "01",
+        "lat": 2.5496178,
+        "long": 21.3037272
+    },
+    {
+        "nom": "Beni",
+        "province": "60a560e52b2bb41a1c8bd2fb",
+        "code": "01",
+        "lat": 0.4815569,
+        "long": 29.4528237
+    },
+    {
+        "nom": "Butembo",
+        "province": "60a560e52b2bb41a1c8bd2fb",
+        "code": "02",
+        "lat": 0.1243501,
+        "long": 29.2833941
+    },
+    {
+        "nom": "Goma",
+        "province": "60a560e52b2bb41a1c8bd2fb",
+        "code": "03",
+        "lat": -1.6665685,
+        "long": 29.225652
+    },
+    {
+        "nom": "Gbadolite",
+        "province": "60a560e52b2bb41a1c8bd2fc",
+        "code": "01",
+        "lat": 4.2814268,
+        "long": 20.9997307
+    },
+    {
+        "nom": "Lodja",
+        "province": "60a560e52b2bb41a1c8bd2fd",
+        "code": "01",
+        "lat": -3.5241628,
+        "long": 23.5995098
+    },
+    {
+        "nom": "Lusambo",
+        "province": "60a560e52b2bb41a1c8bd2fd",
+        "code": "01",
+        "lat": -6.1094951,
+        "long": 23.6129341
+    },
+    {
+        "nom": "Baraka",
+        "province": "60a560e52b2bb41a1c8bd2fe",
+        "code": "01",
+        "lat": -4.1056132,
+        "long": 29.0950688
+    },
+    {
+        "nom": "Bukavu",
+        "province": "60a560e52b2bb41a1c8bd2fe",
+        "code": "02",
+        "lat": -2.5103908,
+        "long": 28.8336436
+    },
+    {
+        "nom": "Kamituga",
+        "province": "60a560e52b2bb41a1c8bd2fe",
+        "code": "03",
+        "lat": -3.0648932,
+        "long": 28.186972
+    },
+    {
+        "nom": "Uvira",
+        "province": "60a560e52b2bb41a1c8bd2fe",
+        "code": "04",
+        "lat": -3.1982504,
+        "long": 29.0071409
+    },
+    {
+        "nom": "Gemena",
+        "province": "60a560e52b2bb41a1c8bd2ff",
+        "code": "01",
+        "lat": 3.2549286,
+        "long": 19.7750831
+    },
+    {
+        "nom": "Zongo",
+        "province": "60a560e52b2bb41a1c8bd2ff",
+        "code": "02",
+        "lat": 4.1761197,
+        "long": 18.7153481
+    },
+    {
+        "nom": "Kalemie",
+        "province": "60a560e52b2bb41a1c8bd300",
+        "code": "01",
+        "lat": -5.9460209,
+        "long": 29.1967172
+    },
+    {
+        "nom": "Kisangani",
+        "province": "60a560e52b2bb41a1c8d301",
+        "code": "01",
+        "lat": 0.5184021,
+        "long": 25.2057292
+    },
+    {
+        "nom": "Boende",
+        "province": "60a560e52b2bb41a1c8bd302",
+        "code": "01",
+        "lat": -0.2836634,
+        "long": 20.8826368
+    }
+]

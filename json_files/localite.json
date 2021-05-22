@@ -1,0 +1,87 @@
+[
+    {
+        "nom": "Chefferie Avuru-Duma",
+        "territoire": "60a696d32b2bb41a1c8bd327",
+        "code": "01",
+        "lat": 3.2896947,
+        "long": 23.581881
+    },
+    {
+        "nom": "Chefferie Ezo",
+        "territoire": "60a696d32b2bb41a1c8bd328",
+        "code": "01",
+        "lat": 2.4113,
+        "long": 28.20898
+    },
+    {
+        "nom": "Chefferie Bakete",
+        "territoire": "60a696d32b2bb41a1c8bd329",
+        "code": "01",
+        "lat": 3.289,
+        "long": 23.581881
+    },
+    {
+        "nom": "Chefferie Bosso",
+        "territoire": "60a696d32b2bb41a1c8bd32a",
+        "code": "01",
+        "lat": 2.73877,
+        "long": 23.78326
+    },
+    {
+        "nom": "Chefferie Abarambo",
+        "territoire": "60a696d32b2bb41a1c8bd32b",
+        "code": "01",
+        "lat": 3.289,
+        "long": 23.581881
+    },
+    {
+        "nom": "Secteur Basankusu",
+        "territoire": "60a696d32b2bb41a1c8bd32c",
+        "code": "01",
+        "lat": 1.2191683,
+        "long": 19.8013697
+    },
+    {
+        "nom": "Secteur Elanga",
+        "territoire": "60a696d32b2bb41a1c8bd32d",
+        "code": "01",
+        "lat": -0.7328,
+        "long": 18.13407
+    },
+    {
+        "nom": "Secteur Busira",
+        "territoire": "60a696d32b2bb41a1c8bd32e",
+        "code": "01",
+        "lat": -0.20781,
+        "long": 20.01767
+    },
+    {
+        "nom": "Secteur Djamba",
+        "territoire": "60a696d32b2bb41a1c8bd32f",
+        "code": "01",
+        "lat": 2.9035955,
+        "long": 24.055019
+    },
+    {
+        "nom": "Secteur Bokatola",
+        "territoire": "60a696d32b2bb41a1c8bd330",
+        "code": "01",
+        "lat": -0.633333,
+        "long": 18.7666672
+    },
+    {
+        "nom": "Secteur Banunu",
+        "territoire": "60a696d32b2bb41a1c8bd331",
+        "code": "01",
+        "lat": -1.0646958,
+        "long": 17.1709475
+    },
+    {
+        "nom": "Secteur Bangala",
+        "territoire": "60a696d32b2bb41a1c8bd332",
+        "code": "01",
+        "lat": 1.6084795,
+        "long": 19.1034796
+    }
+    
+]

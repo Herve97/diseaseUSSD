@@ -1,0 +1,158 @@
+[
+    {
+        "nom": "Bas-Uele",
+        "code": "01",
+        "lat": 2.8034129,
+        "long": 24.714735
+    },
+    {
+        "nom": "Equateur",
+        "code": "02",
+        "lat": 0.6060154,
+        "long": 18.7800729
+    },
+    {
+        "nom": "Haut-Katanga",
+        "code": "03",
+        "lat": -11.6047402,
+        "long": 27.4131897
+    },
+    {
+        "nom": "Haut-Lomami",
+        "code": "04",
+        "lat": -8.7129757,
+        "long": 24.9893335
+    },
+    {
+        "nom": "Haut-Uele",
+        "code": "05",
+        "lat": 2.7936527,
+        "long": 27.6435943
+    },
+    {
+        "nom": "Ituri",
+        "code": "06",
+        "lat": 2.1015973,
+        "long": 29.0559738
+    },
+    {
+        "nom": "Kasai",
+        "code": "07",
+        "lat": -5.3498001,
+        "long": 21.424098
+    },
+    {
+        "nom": "Kasai Central",
+        "code": "08",
+        "lat": -5.9046896,
+        "long": 21.4334417
+    },
+    {
+        "nom": "Kasai Oriental",
+        "code": "09",
+        "lat": -6.1536291,
+        "long": 23.5960517
+    },
+    {
+        "nom": "Kinshasa",
+        "code": "10",
+        "lat": -4.3217055,
+        "long": 15.3125974
+    },
+    {
+        "nom": "Kongo-Central",
+        "code": "11",
+        "lat": -5.8162516,
+        "long": 13.4908753
+    },
+    {
+        "nom": "Kwango",
+        "code": "12",
+        "lat": -6.1822381,
+        "long": 17.7711691
+    },
+    {
+        "nom": "Kwilu",
+        "code": "13",
+        "lat": -5.0213398,
+        "long": 18.8445746
+    },
+    {
+        "nom": "Lomami",
+        "code": "14",
+        "lat": 2.8034129,
+        "long": 24.714735
+    },
+    {
+        "nom": "Lualaba",
+        "code": "15",
+        "lat": -6.128664,
+        "long": 24.4577962
+    },
+    {
+        "nom": "Mai-Ndombe",
+        "code": "16",
+        "lat": -1.9257011,
+        "long": 18.2997832
+    },
+    {
+        "nom": "Maniema",
+        "code": "17",
+        "lat": -2.9612778,
+        "long": 25.9634848
+    },
+    {
+        "nom": "Mongala",
+        "code": "18",
+        "lat": 2.15406,
+        "long": 21.4861221
+    },
+    {
+        "nom": "Nord-Kivu",
+        "code": "19",
+        "lat": -0.5645647,
+        "long": 28.7061945
+    },
+    {
+        "nom": "Nord-Ubangi",
+        "code": "20",
+        "lat": 4.2849409,
+        "long": 21.0309324
+    },
+    {
+        "nom": "Sankuru",
+        "code": "21",
+        "lat": -3.5074885,
+        "long": 23.5845039
+    },
+    {
+        "nom": "Sud-Kivu",
+        "code": "22",
+        "lat": -3.2653155,
+        "long": 27.8705717
+    },
+    {
+        "nom": "Sud-Ubangi",
+        "code": "23",
+        "lat": 3.2559459,
+        "long": 19.7483787
+    },
+    {
+        "nom": "Tanganyika",
+        "code": "24",
+        "lat": -5.9010019,
+        "long": 29.1778624
+    },
+    {
+        "nom": "Tshopo",
+        "code": "25",
+        "lat": 0.4991493,
+        "long": 25.1651226
+    },
+    {
+        "nom": "Tshuapa",
+        "code": "26",
+        "lat": -0.1694655,
+        "long": 22.2944977
+    }
+]

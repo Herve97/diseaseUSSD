@@ -1,0 +1,174 @@
+
+<% data.results.forEach(function(province) { %>
+
+          <% if( province.maladie === "NAISSANCE" ){ %>
+              <%= province.maladie %>
+              <%= province.Naissance %>
+              <%= province.MortNe %>
+          <% }else{ %>
+            <%= province.maladie %>
+            <%= province.Confirmes %>
+            <%= province.Gueris %>
+            <%= province.Deces %>
+          <% } %>
+        <% }); %>
+
+
+
+
+
+
+var express = require('express');
+var router = express.Router();
+
+const Cas = require('../models/Cas');
+const Province = require('../models/Province');
+const Localite = require('../models/Localite');
+const Territoire = require('../models/Territoire');
+const Ville = require('../models/Ville');
+const ZoneSante = require('../models/ZoneSante');
+const Naissance = require('../models/Naissance');
+const Maladie = require('../models/Maladie');
+
+
+/* GET home page. */
+router.get('/', async function(req, res, next) {
+
+  let total_cas_pays = 0;
+  let total_gueris_pays = 0;
+  let total_mort_pays = 0;
+
+
+  await Province.find().then(async (province) =>{
+
+    province.forEach(async (proValue) =>{
+
+      await ZoneSante.find({province: proValue.id}).then(async (zone)=>{
+
+        zone.forEach(async (zoneValue)=>{
+          // 
+          await Cas.find({zonesante: zoneValue._id}).then(async (cas)=>{
+
+            cas.forEach(async (casValue)=>{
+              // 
+              await Maladie.find({_id: casValue.maladie}).then(async (mal) =>{
+
+                res.render('index', {
+                  province: province,
+                  cas: cas,
+                  zonesante: zone,
+                  maladie: mal
+                });
+
+              }).catch((error)=>{
+                next(error);
+              });
+
+            });
+
+          }).catch((error)=>{
+            console.log("Error on catch cas ", error.message);
+            next(error);
+          });
+          // END CAS
+
+        });
+
+
+
+      }).catch((error)=>{
+        console.log("Error on catch zone ", error.message);
+        next(error);
+      });
+      // END ZONE
+
+    });
+
+  }).catch((error)=>{
+    console.log("Error on catch province ", error.message);
+    next(error);
+  });
+  // Province
+
+  //console.log("province", provGlobal);
+
+  
+});
+
+router.get('/provinces', async function(req, res, next) {
+  res.render('province');
+});
+
+router.get('/ville', async function(req, res, next) {
+  res.render('ville');
+});
+
+module.exports = router;
+
+/*
+
+   <% province.forEach(function(prov) { %> <% }); %>
+   <%= prov.nom %>
+
+*/
+
+/*
+
+var provGlobal = [];
+var zoneGlobal = [];
+var casGlobal = [];
+
+var total_cas_global = [];
+var total_gueris_global = [];
+var total_mort_global = [];
+var maladie = [];
+
+*/
+
+/*[
+      {
+          $group : {
+              _id : '$_id',
+              cas: { $sum: '$cas_confirmer' },
+              maladie: { $first: '$maladie' }
+          }
+      },
+
+      {
+          $lookup: {
+              from: 'Maladies',
+              localField: 'maladie',
+              foreignField: '_id',
+              as: 'maladie'
+          }
+      },
+      {
+          $unwind: '$maladie'
+      }
+    ]*/
+
+    
+   /* 
+    [
+
+           
+      {
+        $lookup: {
+          from: "Cas",
+          localField: "_id",
+          foreignField: "maladie",
+          as:"cases"
+        },
+      },
+
+      {
+        $project: {
+          _id: 1,
+          sumCases: {$sum: "cases"}
+        },
+      }
+
+
+    ]
+    */
+

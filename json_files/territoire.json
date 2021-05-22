@@ -1,0 +1,1045 @@
+[
+    {
+        "nom": "Aketi",
+        "ville": "60a60aa12b2bb41a1c8bd303",
+        "code": "01",
+        "lat": 2.9313002,
+        "long": 23.7439575
+    },
+    {
+        "nom": "Ango",
+        "ville": "60a60aa12b2bb41a1c8bd303",
+        "code": "02",
+        "lat": 4.03855,
+        "long": 25.8401167
+    },
+    {
+        "nom": "Bombesa",
+        "ville": "60a60aa12b2bb41a1c8bd303",
+        "code": "03",
+        "lat": 3.4490912,
+        "long": 25.6944046
+    },
+    {
+        "nom": "Bondo",
+        "ville": "60a60aa12b2bb41a1c8bd303",
+        "code": "04",
+        "lat": 3.8130096,
+        "long": 23.6887171
+    },
+    {
+        "nom": "Poko",
+        "ville": "60a60aa12b2bb41a1c8bd303",
+        "code": "05",
+        "lat": 3.1381313,
+        "long": 26.8946317
+    },
+    {
+        "nom": "Basankusu",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "01",
+        "lat": 1.2191683,
+        "long": 19.8013697
+    },
+    {
+        "nom": "Bikoro",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "02",
+        "lat": -0.7367073,
+        "long": 18.1338714
+    },
+    {
+        "nom": "Bolomba",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "03",
+        "lat": 0.3482931,
+        "long": 19.2289249
+    },
+    {
+        "nom": "Bomongo",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "04",
+        "lat": 1.3801715,
+        "long": 18.3512875
+    },
+    {
+        "nom": "Ingende",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "05",
+        "lat": -0.3159498,
+        "long": 18.9675043
+    },
+    {
+        "nom": "Lukolela",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "06",
+        "lat": -1.0646958,
+        "long": 17.1709475
+    },
+    {
+        "nom": "Makanza",
+        "ville": "60a60aa12b2bb41a1c8bd304",
+        "code": "07",
+        "lat": 1.6084795,
+        "long": 19.1034796
+    },
+    {
+        "nom": "Kasenga",
+        "ville": "60a60aa12b2bb41a1c8bd306",
+        "code": "01",
+        "lat": -11.6428088,
+        "long": 27.5500258
+    },
+    {
+        "nom": "Kipushi",
+        "ville": "60a60aa12b2bb41a1c8bd306",
+        "code": "02",
+        "lat": -11.6833057,
+        "long": 27.4643793
+    },
+    {
+        "nom": "Sakania",
+        "ville": "60a60aa12b2bb41a1c8bd306",
+        "code": "03",
+        "lat": -12.7489705,
+        "long": 28.5562506
+    },
+    {
+        "nom": "Kambove",
+        "ville": "60a60aa12b2bb41a1c8bd305",
+        "code": "01",
+        "lat": -10.8760688,
+        "long": 26.5959708
+    },
+    {
+        "nom": "Mitwaba",
+        "ville": "60a60aa12b2bb41a1c8bd305",
+        "code": "02",
+        "lat": -8.626463,
+        "long": 27.3415298
+    },
+    {
+        "nom": "Pweto",
+        "ville": "60a60aa12b2bb41a1c8bd305",
+        "code": "03",
+        "lat": -8.4741061,
+        "long": 28.8987099
+    },
+    {
+        "nom": "Bukama",
+        "ville": "60a60aa12b2bb41a1c8bd307",
+        "code": "01",
+        "lat": -8.853504,
+        "long": 26.1179557
+    },
+    {
+        "nom": "Kabongo",
+        "ville": "60a60aa12b2bb41a1c8bd307",
+        "code": "02",
+        "lat": -7.1089854,
+        "long": 25.5061798
+    },
+    {
+        "nom": "Kamina",
+        "ville": "60a60aa12b2bb41a1c8bd307",
+        "code": "03",
+        "lat": -8.7351826,
+        "long": 25.0032201
+    },
+    {
+        "nom": "Kaniama",
+        "ville": "60a60aa12b2bb41a1c8bd307",
+        "code": "04",
+        "lat": -7.5094813,
+        "long": 24.1715794
+    },
+    {
+        "nom": "Malemba-Nkulu",
+        "ville": "60a60aa12b2bb41a1c8bd307",
+        "code": "05",
+        "lat": -8.0412413,
+        "long": 26.7908925
+    },
+    {
+        "nom": "Dungu",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "01",
+        "lat": 3.6195433,
+        "long": 28.5699237
+    },
+    {
+        "nom": "Faradje",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "02",
+        "lat": 3.7318588,
+        "long": 29.7064664
+    },
+    {
+        "nom": "Niangara",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "03",
+        "lat": 3.6905911,
+        "long": 27.8974119
+    },
+    {
+        "nom": "Rungu",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "04",
+        "lat": 3.1862338,
+        "long": 27.8738324
+    },
+    {
+        "nom": "Wamba",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "05",
+        "lat": -6.4279023,
+        "long": 17.3736695
+    },
+    {
+        "nom": "Watsa",
+        "ville": "60a60aa12b2bb41a1c8bd308",
+        "code": "06",
+        "lat": 3.0398758,
+        "long": 29.5328413
+    },
+    {
+        "nom": "Aru",
+        "ville": "60a60aa12b2bb41a1c8bd309",
+        "code": "01",
+        "lat": 3.0321244,
+        "long": 30.4840084
+    },
+    {
+        "nom": "Djugu",
+        "ville": "60a60aa12b2bb41a1c8bd309",
+        "code": "02",
+        "lat": 1.8858299,
+        "long": 30.3814198
+    },
+    {
+        "nom": "Irumu",
+        "ville": "60a60aa12b2bb41a1c8bd309",
+        "code": "03",
+        "lat": 1.2701851,
+        "long": 30.0166393
+    },
+    {
+        "nom": "Mahagi",
+        "ville": "60a60aa12b2bb41a1c8bd309",
+        "code": "04",
+        "lat": 2.3371603,
+        "long": 30.5812005
+    },
+    {
+        "nom": "Mambasa",
+        "ville": "60a60aa12b2bb41a1c8bd309",
+        "code": "05",
+        "lat": 1.5353044,
+        "long": 28.7584771
+    },
+    {
+        "nom": "Dekese",
+        "ville": "60a60aa12b2bb41a1c8bd30a",
+        "code": "01",
+        "lat": -3.4925965,
+        "long": 21.3772071
+    },
+    {
+        "nom": "Ilebo",
+        "ville": "60a60aa12b2bb41a1c8bd30a",
+        "code": "02",
+        "lat": -4.3316446,
+        "long": 20.5882508
+    },
+    {
+        "nom": "Mweka",
+        "ville": "60a60aa12b2bb41a1c8bd30a",
+        "code": "03",
+        "lat": -4.8476882,
+        "long": 21.5612
+    },
+    {
+        "nom": "Luebo",
+        "ville": "60a60aa12b2bb41a1c8bd30a",
+        "code": "04",
+        "lat": -5.3535845,
+        "long": 21.4197459
+    },
+    {
+        "nom": "Tshikapa",
+        "ville": "60a60aa12b2bb41a1c8bd30a",
+        "code": "05",
+        "lat": -6.4230495,
+        "long": 20.7887691
+    },
+    {
+        "nom": "Demba",
+        "ville": "60a60aa12b2bb41a1c8bd30b",
+        "code": "01",
+        "lat": -5.4986424,
+        "long": 22.2709368
+    },
+    {
+        "nom": "Dibaya",
+        "ville": "60a60aa12b2bb41a1c8bd30b",
+        "code": "02",
+        "lat": -6.4873146,
+        "long": 22.943906
+    },
+    {
+        "nom": "Dimbelenge",
+        "ville": "60a60aa12b2bb41a1c8bd30b",
+        "code": "03",
+        "lat": -5.5582871,
+        "long": 23.1145547
+    },
+    {
+        "nom": "Kazumba",
+        "ville": "60a60aa12b2bb41a1c8bd30b",
+        "code": "04",
+        "lat": -7.3037537,
+        "long": 22.0426809
+    },
+    {
+        "nom": "Luiza",
+        "ville": "60a60aa12b2bb41a1c8bd30b",
+        "code": "05",
+        "lat": -7.1965439,
+        "long": 22.3971878
+    },
+    {
+        "nom": "Kabeya-Kamwanga",
+        "ville": "60a60aa12b2bb41a1c8bd30c",
+        "code": "01",
+        "lat": -5.9988,
+        "long": 23.25386
+    },
+    {
+        "nom": "Katanda",
+        "ville": "60a60aa12b2bb41a1c8bd30c",
+        "code": "02",
+        "lat": -6.0809369,
+        "long": 23.9278807
+    },
+    {
+        "nom": "Lupatapata",
+        "ville": "60a60aa12b2bb41a1c8bd30c",
+        "code": "03",
+        "lat": -6.0263656,
+        "long": 23.6091605
+    },
+    {
+        "nom": "Miabi",
+        "ville": "60a60aa12b2bb41a1c8bd30c",
+        "code": "04",
+        "lat": -6.2882282,
+        "long": 23.2880174
+    },
+    {
+        "nom": "Tshilende",
+        "ville": "60a60aa12b2bb41a1c8bd30c",
+        "code": "05",
+        "lat": -5.5582871,
+        "long": 23.1145547
+    },
+    {
+        "nom": "Funa",
+        "ville": "60a60aa12b2bb41a1c8bd30d",
+        "code": "01",
+        "lat": -4.3256523,
+        "long": 15.3361764
+    },
+    {
+        "nom": "Lukunga",
+        "ville": "60a60aa12b2bb41a1c8bd30d",
+        "code": "02",
+        "lat": -4.3840872,
+        "long": 15.3489823
+    },
+    {
+        "nom": "Mont-Amba",
+        "ville": "60a60aa12b2bb41a1c8bd30d",
+        "code": "03",
+        "lat": -4.4342193,
+        "long": 15.3091643
+    },
+    {
+        "nom": "Tshangu",
+        "ville": "60a60aa12b2bb41a1c8bd30d",
+        "code": "04",
+        "lat": -4.3907327,
+        "long": 15.3897203
+    },
+    {
+        "nom": "Kasangulu",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "01",
+        "lat": -4.8002314,
+        "long": 15.30027
+    },
+    {
+        "nom": "Kimvula",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "02",
+        "lat": -5.4313246,
+        "long": 16.028658
+    },
+    {
+        "nom": "Lukula",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "03",
+        "lat": -5.3907317,
+        "long": 12.8656785
+    },
+    {
+        "nom": "Luozi",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "04",
+        "lat": -4.8051106,
+        "long": 13.9921569
+    },
+    {
+        "nom": "Madimba",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "05",
+        "lat": -5.3655176,
+        "long": 15.5469709
+    },
+    {
+        "nom": "Mbanza-Ngungu",
+        "ville": "60a60aa12b2bb41a1c8bd30f",
+        "code": "06",
+        "lat": -5.3306961,
+        "long": 14.7994206
+    },
+    {
+        "nom": "Moanda",
+        "ville": "60a60aa12b2bb41a1c8bd30e",
+        "code": "07",
+        "lat": -5.8378942,
+        "long": 12.3827182
+    },
+    {
+        "nom": "Seke Banza",
+        "ville": "60a60aa12b2bb41a1c8bd30e",
+        "code": "08",
+        "lat": -5.3077359,
+        "long": 13.4117155
+    },
+    {
+        "nom": "Songololo",
+        "ville": "60a60aa12b2bb41a1c8bd30e",
+        "code": "09",
+        "lat": -5.4196319,
+        "long": 13.9963582
+    },
+    {
+        "nom": "Tshela",
+        "ville": "60a60aa12b2bb41a1c8bd30e",
+        "code": "10",
+        "lat": -4.9642112,
+        "long": 12.9163417
+    },
+    {
+        "nom": "Feshi",
+        "ville": "60a60aa12b2bb41a1c8bd310",
+        "code": "01",
+        "lat": -6.1311665,
+        "long": 18.1496197
+    },
+    {
+        "nom": "Kahemba",
+        "ville": "60a60aa12b2bb41a1c8bd310",
+        "code": "02",
+        "lat": -7.2919121,
+        "long": 18.9582005
+    },
+    {
+        "nom": "Kasongo Lunda",
+        "ville": "60a60aa12b2bb41a1c8bd310",
+        "code": "03",
+        "lat": -6.4786095,
+        "long": 16.8168133
+    },
+    {
+        "nom": "Kenge",
+        "ville": "60a60aa12b2bb41a1c8bd310",
+        "code": "04",
+        "lat": -4.8059503,
+        "long": 17.038692
+    },
+    {
+        "nom": "Popokabaka",
+        "ville": "60a60aa12b2bb41a1c8bd310",
+        "code": "05",
+        "lat": -5.6931949,
+        "long": 16.5841079
+    },
+    {
+        "nom": "Bagata",
+        "ville": "60a60aa12b2bb41a1c8bd311",
+        "code": "01",
+        "lat": -3.7263996,
+        "long": 17.9521424
+    },
+    {
+        "nom": "Bulungu",
+        "ville": "60a60aa12b2bb41a1c8bd311",
+        "code": "02",
+        "lat": -6.0556272,
+        "long": 21.9021756
+    },
+    {
+        "nom": "Gungu",
+        "ville": "60a60aa12b2bb41a1c8bd311",
+        "code": "03",
+        "lat": -5.7381679,
+        "long": 19.3078106
+    },
+    {
+        "nom": "Idiofa",
+        "ville": "60a60aa12b2bb41a1c8bd312",
+        "code": "04",
+        "lat": -4.9699217,
+        "long": 19.5885243
+    },
+    {
+        "nom": "Masi-Manimba",
+        "ville": "60a60aa12b2bb41a1c8bd312",
+        "code": "05",
+        "lat": -4.77488,
+        "long": 17.887
+    },
+    {
+        "nom": "Kabinda",
+        "ville": "60a60aa12b2bb41a1c8bd313",
+        "code": "01",
+        "lat": -6.4044023,
+        "long": 24.6475773
+    },
+    {
+        "nom": "Kamiji",
+        "ville": "60a60aa12b2bb41a1c8bd313",
+        "code": "02",
+        "lat": -6.6603427,
+        "long": 23.2803699
+    },
+    {
+        "nom": "Lubao",
+        "ville": "60a60aa12b2bb41a1c8bd313",
+        "code": "03",
+        "lat": -4.5033701,
+        "long": 26.2574717
+    },
+    {
+        "nom": "Luilu",
+        "ville": "60a60aa12b2bb41a1c8bd314",
+        "code": "04",
+        "lat": -10.6631074,
+        "long": 25.3904163
+    },
+    {
+        "nom": "Ngandajika",
+        "ville": "60a60aa12b2bb41a1c8bd314",
+        "code": "05",
+        "lat": -6.7342539,
+        "long": 23.9514378
+    },
+    {
+        "nom": "Mwene-Ditu",
+        "ville": "60a60aa12b2bb41a1c8bd314",
+        "code": "06",
+        "lat": -7.006496,
+        "long": 23.4487976
+    },
+    {
+        "nom": "Dilolo",
+        "ville": "60a60aa12b2bb41a1c8bd315",
+        "code": "01",
+        "lat": -10.5460322,
+        "long": 23.3058794
+    },
+    {
+        "nom": "Kapanga",
+        "ville": "60a60aa12b2bb41a1c8bd315",
+        "code": "02",
+        "lat": -8.4990274,
+        "long": 22.7949128
+    },
+    {
+        "nom": "Lubudi",
+        "ville": "60a60aa12b2bb41a1c8bd315",
+        "code": "03",
+        "lat": -10.3583785,
+        "long": 26.446786
+    },
+    {
+        "nom": "Mutshatsha",
+        "ville": "60a60aa12b2bb41a1c8bd315",
+        "code": "04",
+        "lat": -10.861567,
+        "long": 25.163762
+    },
+    {
+        "nom": "Sandoa",
+        "ville": "60a60aa12b2bb41a1c8bd315",
+        "code": "05",
+        "lat": -9.3863556,
+        "long": 22.9715887
+    },
+    {
+        "nom": "Bolobo",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "01",
+        "lat": -2.166682,
+        "long": 16.23333
+    },
+    {
+        "nom": "Inongo",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "02",
+        "lat": -1.9253353,
+        "long": 18.2863998
+    },
+    {
+        "nom": "Kiri",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "03",
+        "lat": -1.495603,
+        "long": 18.928388
+    },
+    {
+        "nom": "Kutu",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "04",
+        "lat": -2.725003,
+        "long": 18.147696
+    },
+    {
+        "nom": "Kwamouth",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "05",
+        "lat": -3.1820727,
+        "long": 16.2044968
+    },
+    {
+        "nom": "Mushie",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "06",
+        "lat": -3.0154526,
+        "long": 16.9232711
+    },
+    {
+        "nom": "Oshwe",
+        "ville": "60a60aa12b2bb41a1c8bd316",
+        "code": "07",
+        "lat": -3.0160899,
+        "long": 16.9170101
+    },
+    {
+        "nom": "Kabambare",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "01",
+        "lat": -4.4008989,
+        "long": 27.7658598
+    },
+    {
+        "nom": "Kailo",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "02",
+        "lat": -2.63044,
+        "long": 26.10284
+    },
+    {
+        "nom": "Kibombo",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "03",
+        "lat": -4.0993967,
+        "long": 25.5153326
+    },
+    {
+        "nom": "Kasongo",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "04",
+        "lat": -4.3146932,
+        "long": 26.5676705
+    },
+    {
+        "nom": "Lubutu",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "05",
+        "lat": -0.7020238,
+        "long": 27.0342516
+    },
+    {
+        "nom": "Pangi",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "06",
+        "lat": -3.111546,
+        "long": 26.6096176
+    },
+    {
+        "nom": "Punia",
+        "ville": "60a60aa12b2bb41a1c8bd317",
+        "code": "07",
+        "lat": -1.7030109,
+        "long": 26.9225194
+    },
+    {
+        "nom": "Bongandanga",
+        "ville": "60a60aa12b2bb41a1c8bd318",
+        "code": "01",
+        "lat": 1.5048009,
+        "long": 21.074106
+    },
+    {
+        "nom": "Bumba",
+        "ville": "60a60aa12b2bb41a1c8bd318",
+        "code": "02",
+        "lat": 2.1837441,
+        "long": 22.466526
+    },
+    {
+        "nom": "Lisala",
+        "ville": "60a60aa12b2bb41a1c8bd318",
+        "code": "03",
+        "lat": 2.1441156,
+        "long": 21.5209722
+    },
+    {
+        "nom": "Beni",
+        "ville": "60a60aa12b2bb41a1c8bd319",
+        "code": "01",
+        "lat": 0.4815569,
+        "long": 29.4528237
+    },
+    {
+        "nom": "Lubero",
+        "ville": "60a60aa12b2bb41a1c8bd319",
+        "code": "02",
+        "lat": -0.0623332,
+        "long": 28.7540799
+    },
+    {
+        "nom": "Masisi",
+        "ville": "60a60aa12b2bb41a1c8bd31a",
+        "code": "01",
+        "lat": -1.3713608,
+        "long": 28.8821993
+    },
+    {
+        "nom": "Nyirangongo",
+        "ville": "60a60aa12b2bb41a1c8bd31a",
+        "code": "02",
+        "lat": -1.55515,
+        "long": 29.286
+    },
+    {
+        "nom": "Rutshuru",
+        "ville": "60a60aa12b2bb41a1c8bd31b",
+        "code": "01",
+        "lat": -0.962197,
+        "long": 29.3255708
+    },
+    {
+        "nom": "Walikale",
+        "ville": "60a60aa12b2bb41a1c8bd31b",
+        "code": "02",
+        "lat": -1.0723801,
+        "long": 27.975392
+    },
+    {
+        "nom": "Bosobolo",
+        "ville": "60a60aa12b2bb41a1c8bd31c",
+        "code": "01",
+        "lat": 4.5212385,
+        "long": 19.9379004
+    },
+    {
+        "nom": "Businga",
+        "ville": "60a60aa12b2bb41a1c8bd31c",
+        "code": "02",
+        "lat": 3.3411745,
+        "long": 20.8881923
+    },
+    {
+        "nom": "Mobayi-Mongo",
+        "ville": "60a60aa12b2bb41a1c8bd31c",
+        "code": "03",
+        "lat": 3.01667,
+        "long": 23.36667
+    },
+    {
+        "nom": "Yakoma",
+        "ville": "60a60aa12b2bb41a1c8bd31c",
+        "code": "05",
+        "lat": 4.106114,
+        "long": 22.4449881
+    },
+    {
+        "nom": "Lusambo",
+        "ville": "60a60aa12b2bb41a1c8bd31c",
+        "code": "05",
+        "lat": -6.1094951,
+        "long": 23.6129341
+    },
+    {
+        "nom": "Katako-kombe",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "01",
+        "lat": -3.3981629,
+        "long": 24.4213923
+    },
+    {
+        "nom": "Kole",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "02",
+        "lat": -3.4633994,
+        "long": 22.4456268
+    },
+    {
+        "nom": "Lodja",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "03",
+        "lat": -3.5241628,
+        "long": 23.5995098
+    },
+    {
+        "nom": "Lomela",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "04",
+        "lat": -2.2799144,
+        "long": 23.3656817
+    },
+    {
+        "nom": "Lubefu",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "05",
+        "lat": -4.7379301,
+        "long": 24.4366852
+    },
+    {
+        "nom": "Lusambo",
+        "ville": "60a692fa8e7a88458012a85f",
+        "code": "06",
+        "lat": -4.9736384,
+        "long": 23.4432792
+    },
+    {
+        "nom": "Fizi",
+        "ville": "60a60aa12b2bb41a1c8bd31f",
+        "code": "01",
+        "lat": -4.2696783,
+        "long": 28.8806316
+    },
+    {
+        "nom": "Idjwi",
+        "ville": "60a60aa12b2bb41a1c8bd31f",
+        "code": "02",
+        "lat": -2.1039486,
+        "long": 29.0648549
+    },
+    {
+        "nom": "Kabare",
+        "ville": "60a60aa12b2bb41a1c8bd320",
+        "code": "01",
+        "lat": -2.4088552,
+        "long": 28.7497991
+    },
+    {
+        "nom": "Kalehe",
+        "ville": "60a60aa12b2bb41a1c8bd320",
+        "code": "02",
+        "lat": -2.0518682,
+        "long": 28.5685568
+    },
+    {
+        "nom": "Mwenga",
+        "ville": "60a60aa12b2bb41a1c8bd31e",
+        "code": "01",
+        "lat": -3.3934106,
+        "long": 28.3106089
+    },
+    {
+        "nom": "Shabunda",
+        "ville": "60a60aa12b2bb41a1c8bd31e",
+        "code": "02",
+        "lat": -2.993575,
+        "long": 27.4702053
+    },
+    {
+        "nom": "Uvira",
+        "ville": "60a60aa12b2bb41a1c8bd321",
+        "code": "01",
+        "lat": -3.1982504,
+        "long": 29.0071409
+    },
+    {
+        "nom": "Walungu",
+        "ville": "60a60aa12b2bb41a1c8bd321",
+        "code": "02",
+        "lat": -2.7707979,
+        "long": 28.6000505
+    },
+    {
+        "nom": "Budjala",
+        "ville": "60a60aa12b2bb41a1c8bd322",
+        "code": "01",
+        "lat": 2.6472081,
+        "long": 19.7024405
+    },
+    {
+        "nom": "Gemena",
+        "ville": "60a60aa12b2bb41a1c8bd322",
+        "code": "02",
+        "lat": 3.2549286,
+        "long": 19.7750831
+    },
+    {
+        "nom": "Kungu",
+        "ville": "60a60aa12b2bb41a1c8bd323",
+        "code": "01",
+        "lat": 2.7807164,
+        "long": 19.2040667
+    },
+    {
+        "nom": "Libenge",
+        "ville": "60a60aa12b2bb41a1c8bd323",
+        "code": "02",
+        "lat": 3.7682785,
+        "long": 18.9669482
+    },
+    {
+        "nom": "Kalemie",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "01",
+        "lat": -5.9460209,
+        "long": 29.1967172
+    },
+    {
+        "nom": "Kabalo",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "02",
+        "lat": -6.0500915,
+        "long": 26.9160693
+    },
+    {
+        "nom": "Kongolo",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "03",
+        "lat": -4.3621612,
+        "long": 29.0990576
+    },
+    {
+        "nom": "Manono",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "04",
+        "lat": -7.2981166,
+        "long": 27.396517
+    },
+    {
+        "nom": "Moba",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "05",
+        "lat": -7.0427487,
+        "long": 29.7737268
+    },
+    {
+        "nom": "Nyunzu",
+        "ville": "60a60aa12b2bb41a1c8bd324",
+        "code": "05",
+        "lat": -5.9577181,
+        "long": 28.0117894
+    },
+    {
+        "nom": "Bafwasende",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "01",
+        "lat": 0.9988842,
+        "long": 27.1572905
+    },
+    {
+        "nom": "Banalia",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "02",
+        "lat": 1.5564193,
+        "long": 25.3200682
+    },
+    {
+        "nom": "Basoko",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "03",
+        "lat": 1.2324948,
+        "long": 23.6056967
+    },
+    {
+        "nom": "Isangi",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "04",
+        "lat": 0.7795426,
+        "long": 24.2690944
+    },
+    {
+        "nom": "Opala",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "05",
+        "lat": -0.5096558,
+        "long": 24.2298322
+    },
+    {
+        "nom": "Ubundu",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "06",
+        "lat": -0.357654,
+        "long": 25.43209
+    },
+    {
+        "nom": "Yahumu",
+        "ville": "60a60aa12b2bb41a1c8bd325",
+        "code": "07",
+        "lat": 0.4991493,
+        "long": 25.1651226
+    },
+    {
+        "nom": "Befale",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "01",
+        "lat": 0.3924105,
+        "long": 20.843124
+    },
+    {
+        "nom": "Boende",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "02",
+        "lat": -0.2836634,
+        "long": 20.8826368
+    },
+    {
+        "nom": "Bokungu",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "03",
+        "lat": 3.0397473,
+        "long": 19.6640367
+    },
+    {
+        "nom": "Djolu",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "04",
+        "lat": 0.6779431,
+        "long": 22.4603878
+    },
+    {
+        "nom": "Ikela",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "05",
+        "lat": -0.7649363,
+        "long": 20.1280994
+    },
+    {
+        "nom": "Monkoto",
+        "ville": "60a60aa12b2bb41a1c8bd326",
+        "code": "06",
+        "lat": -1.743868,
+        "long": 20.687038
+    }
+]

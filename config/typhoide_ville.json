@@ -1,0 +1,897 @@
+    
+    {
+        "name": "Typhoide",
+        "cases": 55,
+        "totalRecovered": 45252,
+        "totalDeath" : 547298,
+        "todayCases" : 547298,
+        "province":[
+            //   ************************* PROVINCE DU BAS UELE ***************************** //
+                {"name": "Bas-Uele", "lat": 2.8034129, "long": 24.714735, "liveCases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Buta", "lat": 2.8034129, "long": 24.714735, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            {"title": "Aketi", "cases": 5, "lat": 2.9313, "long": 23.743958, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": " Chefferie d'Avuru-Duma", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 1, "death": 0},
+                                {"chefferie_name": " Chefferie d'Avuru-Gatanga", "cases": 0, "lat": 3.2513214, "long": 24.3577213, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bondogola", "cases": 1, "lat": 2.7445769, "long": 23.0915392, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabinza", "cases": 0, "lat": 2.700495, "long": 24.013516, "recovered": 0, "death": 2},
+                                {"chefferie_name": "Chefferie de Mobati-Boyele", "cases": 1, "lat": 3.212485, "long": 23.904588, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mongwandi", "cases": 0, "lat": 3.399965, "long": 22.9964691, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Gbandi", "cases": 1, "lat": 2.873179, "long": 23.314571, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yoko", "cases": 1, "lat": 2.402978, "long": 23.948056, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bondo", "cases": 5, "lat": 3.81301, "long": 23.688717, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": " Chefferie de Bosso", "cases": 1, "lat": 2.73877, "long": 23.78326, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Deni", "cases": 0, "lat": 2.911114, "long": 24.213555, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Duaru", "cases": 1, "lat": 4.1645, "long": 23.09254, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gama", "cases": 0, "lat": 3.35, "long": 26.75, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Gaya", "cases": 1, "lat": 4.18806, "long": 23.06353, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Gbiamange", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Goa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kassa", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mabenge-Mondila", "lat": 3.289, "long": 23.581881, "cases": 0, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Soa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Ango", "cases": 5, "lat": 4.03855, "long": 25.840117, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie d'Ezo", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mopoyi", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Ngindo", "cases": 1, "lat": 3.77734, "long": 25.52758,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Sasa", "cases": 2, "lat": 3.98138, "long": 27.42444,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bombesa", "cases": 5, "lat": 3.4490912, "long": 25.6944046, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie de Bakete", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Bikopo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bokiba", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Bolungwa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere I", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere II", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere-Bakete", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mange", "lat": 3.28153, "long": 25.53225, "cases": 0, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mondongwale", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Poko", "cases": 5, "lat": 3.138131, "long": 26.894632, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Secteur d'Abarambo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Babena", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bakengaie", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gamu", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Secteur de Kembisa", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kipate", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kumendeni", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabanga", "cases": 1, "lat": 2.17915, "long": 27.9197, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Madi", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Malele", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Ngbaradi", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Saronga", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Zune", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+                // ******************************* EQUATEUR ************************************************* //
+                {"name": "Equateur", "lat": 0.6060154, "long": 18.7800729, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Mbandaka", "lat": 0.6060154, "long": 18.7800729, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            {"title": "Basankusu", "cases": 5, "lat": 1.2191683, "long": 19.8013697, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": " Chefferie d'Avuru-Duma", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 1, "death": 0},
+                                {"chefferie_name": " Chefferie d'Avuru-Gatanga", "cases": 0, "lat": 3.2513214, "long": 24.3577213, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bondogola", "cases": 1, "lat": 2.7445769, "long": 23.0915392, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabinza", "cases": 0, "lat": 2.700495, "long": 24.013516, "recovered": 0, "death": 2},
+                                {"chefferie_name": "Chefferie de Mobati-Boyele", "cases": 1, "lat": 3.212485, "long": 23.904588, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mongwandi", "cases": 0, "lat": 3.399965, "long": 22.9964691, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Gbandi", "cases": 1, "lat": 2.873179, "long": 23.314571, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yoko", "cases": 1, "lat": 2.402978, "long": 23.948056, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bikoro", "cases": 5, "lat": -0.7367073, "long": 18.1338714, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": " Chefferie de Bosso", "cases": 1, "lat": 2.73877, "long": 23.78326, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Deni", "cases": 0, "lat": 2.911114, "long": 24.213555, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Duaru", "cases": 1, "lat": 4.1645, "long": 23.09254, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gama", "cases": 0, "lat": 3.35, "long": 26.75, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Gaya", "cases": 1, "lat": 4.18806, "long": 23.06353, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Gbiamange", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Goa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kassa", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mabenge-Mondila", "lat": 3.289, "long": 23.581881, "cases": 0, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Soa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bolomba", "cases": 5, "lat": 0.3482931, "long": 19.2289249, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie d'Ezo", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mopoyi", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Ngindo", "cases": 1, "lat": 3.77734, "long": 25.52758,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Sasa", "cases": 2, "lat": 3.98138, "long": 27.42444,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bomongo", "cases": 5, "lat": 1.3801715, "long": 18.3512875, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie de Bakete", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Bikopo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bokiba", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Bolungwa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere I", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere II", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Makere-Bakete", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mange", "lat": 3.28153, "long": 25.53225, "cases": 0, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mondongwale", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Ingende", "cases": 5, "lat": -0.3159498, "long": 18.9675043, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Secteur d'Abarambo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Babena", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bakengaie", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gamu", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Secteur de Kembisa", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kipate", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kumendeni", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabanga", "cases": 1, "lat": 2.17915, "long": 27.9197, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Madi", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Malele", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Ngbaradi", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Saronga", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Zune", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Lukolela", "cases": 5, "lat": -1.0646958, "long": 17.1709475, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Secteur d'Abarambo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Babena", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bakengaie", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gamu", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Secteur de Kembisa", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kipate", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kumendeni", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabanga", "cases": 1, "lat": 2.17915, "long": 27.9197, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Madi", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Malele", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Ngbaradi", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Saronga", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Zune", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Makanza", "cases": 5, "lat": 1.6084795, "long": 19.1034796, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Secteur d'Abarambo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Babena", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bakengaie", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Gamu", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Secteur de Kembisa", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kipate", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Kumendeni", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Mabanga", "cases": 1, "lat": 2.17915, "long": 27.9197, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Madi", "cases": 0, "lat": 2.85539, "long": 27.51821, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Malele", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Ngbaradi", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Saronga", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Zune", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+                // ******************************* HAUT KATANGA ************************************************* //
+                {"name": "Haut-Katanga", "lat": -11.6047402, "long": 27.4131897, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Lubumbashi", "lat": -11.664231654, "long": 27.4826264, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Kipushi", "cases": 5, "lat": -11.6833057, "long": 27.4643793, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kaponda", "cases": 1, "lat": -11.6279802, "long": 27.5236133,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kinyama", "cases": 1, "lat": -11.4627395, "long": 28.2922033,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bukunda", "cases": 1, "lat": -11.755275761755072, "long":  27.23699548569816,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Sakania", "cases": 5, "lat": -12.7489705, "long": 28.5562506, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur Balaba", "cases": 1, "lat": -12.743269068906828,  "long": 28.56580803506398,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Balamba", "cases": 1, "lat": -12.751912652730747,  "long": 28.564112878952496,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Baushi", "cases": 1, "lat": -12.752373077490756, "long": 28.559563852425473,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kasenga", "cases": 5, "lat": 0.3482931, "long": 19.2289249, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bakunda", "cases": 1, "lat": -8.4772362, "long": 28.9073128,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kafira", "cases": 1, "lat": -11.7025612, "long": 27.4791826,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kisamamba", "cases": 1, "lat": -10.51667, "long": 28.63333,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luapula", "cases": 2, "lat": -11.7089115, "long": 27.4856346,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lufira", "cases": 1, "lat": -11.7138254, "long": 27.4757577,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    {"ville_name": "Likasi", "lat": -11.664231654, "long": 27.4826264, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Mitwaba", "cases": 5, "lat": 0.3482931, "long": 19.2289249, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie de Kiona-Ngoy", "cases": 1, "lat": -11.6275934, "long": 27.5393397,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Balomotwa", "cases": 1, "lat": -8.641400665138598,  "long": 27.341322700207247,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Banweshi", "cases": 1, "lat": -8.642588652069206,  "long": 27.33917693297752,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Pweto", "cases": 5, "lat": -8.4741061, "long": 28.8987099, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kiona-Nzini", "cases": 1, "lat": -11.630833, "long": 27.534975,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mpweto", "cases": 1, "lat": -11.6659171, "long": 27.4290284,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mwenge", "cases": 1, "lat": -7.9584313, "long": 28.7155579,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Moero", "cases": 1, "lat": -9.0289607, "long": 28.6921565,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kambove", "cases": 5, "lat": -10.8760688, "long": 26.5959708, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": " Chefferie de Basanga", "cases": 1, "lat": -10.9727539, "long": 26.7205216,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Source du Kongo", "cases": 1, "lat": -10.884519835706586, "long": 26.596309176537236,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+            
+            
+
+                // ******************************* HAUT LOMAMI ************************************************* //
+                {"name": "Haut-Lomami", "lat": -8.7129757, "long": 24.9893335, "liveCases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Kamina", "lat": -8.7351826, "long": -8.7351826, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Kamina", "cases": 5, "lat": -7.5094813, "long": 24.1715794, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kasongo-Nyembo", "cases": 1, "lat": -8.744992812976147,  "long": 24.980582150670102,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nord Baluba", "cases": 1, "lat": -8.724547526295805, "long": 25.015601071859255,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kaniama", "cases": 5, "lat": -7.5094813, "long": 24.1715794, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur Mutombo Mukulu", "cases": 1, "lat": -8.7380078, "long": 24.9716171,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kabongo", "cases": 5, "lat": -7.1089854, "long": 25.5061798, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie Kabongo", "cases": 1, "lat": -7.1089854, "long": 25.5061798,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kayamba", "cases": 1, "lat": -7.4450238, "long": 25.5447019,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nord-Baluba", "cases": 1, "lat": -7.326840543151517,  "long": 25.576987039558986,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Malemba-Nkulu", "cases": 5, "lat": -8.0241413, "long": 26.7908925, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kayumba", "cases": 1, "lat": -8.4977718, "long": 26.3833476,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mulongo", "cases": 1, "lat": -11.7025612, "long": 27.4791826,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Museka", "cases": 1, "lat": -5.6465002, "long": 27.813256,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Nkulu", "cases": 2, "lat": -8.0412413, "long": 26.7908925,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Badia", "cases": 1, "lat": -8.046183601642838,  "long": 26.78119157626837,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mwenza", "cases": 1, "lat": -8.04524875750997,  "long": 26.77235101528189,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bukama", "cases": 5, "lat": -8.853504, "long": 26.1179557, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Lualaba", "cases": 1, "lat": -9.696915, "long": 23.0225439,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kapamayi", "cases": 1, "lat": -9.159966974181007,  "long": 25.776111318817154,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Butumbu", "cases": 1, "lat": -9.178608438084227,  "long": 25.86297197627654,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kinkondja", "cases": 2, "lat": -9.149120581366056,  "long": 25.780574514654994,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kabongo-Dianda", "cases": 1, "lat": -8.9097088, "long": 25.6683638,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kibanda", "cases": 1, "lat": -9.3945, "long": 26.0391944,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+            
+
+                // ******************************* HAUT UELE ************************************************* //
+                {"name": "Haut-Uele", "lat": -8.7129757, "long": 24.9893335, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Isiro", "lat": 2.7742702, "long": 27.6208169, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Rungu", "cases": 5, "lat": 3.1862338, "long": 27.8738324, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie d'Azanga", "cases": 1, "lat": 2.8116001, "long": 30.8412169,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mayogo-Mabozo", "cases": 1, "lat": 3.186408115210021,  "long": 27.856735971326763,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mayogo-Magbay", "cases": 1, "lat": 3.1791237602419535, "long": 27.85416105065109,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mboli", "cases": 1, "lat": 3.168925576895247,  "long": 27.870125558840265,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Medje-Mango", "cases": 1, "lat": 3.1690969757659273,  "long": 27.85785177028622,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mango Masi", "cases": 1, "lat": 3.1897503314185647,  "long": 27.85587766443487,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndey", "cases": 1, "lat": 3.167982882599157,  "long": 27.86643483920513,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Niangara", "cases": 5, "lat": 3.6905911, "long": 27.8974119, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Boime", "cases": 1, "lat": 3.675492800363672,  "long": 27.866005672362604,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kereboro", "cases": 1, "lat": 3.6732657898348515,  "long": 27.868408931659896,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kopa", "cases": 1, "lat": 2.91131, "long": 26.95074,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mangbele", "cases": 1, "lat": 2.46839, "long": 27.44755,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mangbetu", "cases": 1, "lat": 2.30718, "long": 27.79305,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Manziga", "cases": 1, "lat": 3.77189, "long": 28.03509,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie d'Okondo", "cases": 1, "lat": 3.62294, "long": 28.16616,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Dungu", "cases": 5, "lat": 3.61687, "long": 28.5642, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Malingindu", "cases": 1, "lat": 4.27046, "long": 27.73053,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Ndolomo", "cases": 1, "lat": 3.02122, "long": 30.05356,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Wando", "cases": 1, "lat": 3.81153, "long": 28.08046,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Faradje", "cases": 5, "lat": 3.73503, "long": 29.70997, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Dongo", "cases": 1, "lat": 1.02869, "long": 23.26931,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kakwa", "cases": 1, "lat": 3.7527487101600085,  "long": 29.72144992225417,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Logo-Bagela", "cases": 1, "lat": 3.752577416848593,  "long": 29.727114747740654,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Logo-Doka", "cases": 1, "lat": 3.35727, "long": 23.81651,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Logo-Lolia", "cases": 1, "lat": 3.7212301769243092,  "long": 29.729346345659568,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Logo-Obeleba", "cases": 1, "lat": 3.7130077650122715,  "long": 29.72419650430822,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Logo-Ogambi", "cases": 1, "lat": 3.7263691454082717,  "long": 29.727973054632542,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mondo", "cases": 1, "lat": 2.14539, "long": 25.41436,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Watsa", "cases": 5, "lat": 3.03716, "long": 29.53551, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Andikofa", "cases": 1, "lat": 3.0541242073059562,  "long": 29.528030553041983,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Andobi", "cases": 1, "lat": 3.048981668366613, "long":  29.549316563960883,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Ateru", "cases": 1, "lat": 3.0524100303937636,  "long": 29.54348007709602,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kebo", "cases": 1, "lat": 3.0484674131198,  "long": 29.52820221442036,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mari-Minza", "cases": 1, "lat": 3.047267483254709,  "long": 29.545711675014942,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Waleze", "cases": 1, "lat": 3.0434962664004317,  "long": 29.52408234133929,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Gambari", "cases": 1, "lat": 2.7151568, "long": 29.0485234,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kibali", "cases": 1, "lat": 3.0734791, "long": 29.6979761,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mangbutu", "cases": 1, "lat": 3.040239295768398,  "long": 29.521335759285233,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Wamba", "cases": 5, "lat": 2.1435115, "long": 27.9938589, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bafwagada", "cases": 1, "lat": 2.123436228991929, "long": 27.99277693147731,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bafwakoi", "cases": 1, "lat": 1.69226, "long": 27.06011,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Balika-Toriko", "cases": 1, "lat": 1.12714, "long": 27.96255,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mahaa", "cases": 1, "lat": 2.1210346181623154,  "long": 27.98676878323407,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Makoda", "cases": 1, "lat": 2.160317638259426,  "long": 28.005136550720543,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Malamba", "cases": 1, "lat": 2.1548283685840754,  "long": 28.004106582450273,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Malika-Ateru", "cases": 1, "lat": 2.7151568, "long": 29.0485234,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mangbele", "cases": 1, "lat": 2.46839, "long": 27.44755,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Timonika", "cases": 1, "lat": 2.156372227682486,  "long": 27.994150222504334,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Wadimisa", "cases": 1, "lat": 2.171639194254995, "long": 27.965997756450303,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mabu Malika Babyeru", "cases": 1, "lat": 2.174555338895761,  "long": 27.995695174909738,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+                // ******************************* ITURI ************************************************* //
+                {"name": "Ituri", "lat": -8.7129757, "long": 24.9893335, "liveCases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Bunia", "lat": 1.5557893, "long": 30.2519376, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Irumu", "cases": 5, "lat": 1.2701851, "long": 30.0166393, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie d'Andisoma", "cases": 1, "lat": 1.4421895005286012,  "long": 29.837493913745522,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Babelebe", "cases": 1, "lat": 1.436011640294348,  "long": 29.849896448333354,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Baboa-Bokoe", "cases": 1, "lat": 1.4381567325495508,  "long": 29.854788797617125,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema d'Irumu", "cases": 1, "lat": 1.2701851, "long": 30.0166393,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema-Mitego", "cases": 1, "lat": 1.1363889, "long": 29.9908333,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema-Boga", "cases": 1, "lat": 1.0253211, "long": 29.9556787,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Banyari Tchabi", "cases": 1, "lat": 0.9806111, "long": 29.8772,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Basili", "cases": 1, "lat": 1.4347674858636523,  "long": 29.849038141441458,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mobala", "cases": 1, "lat": 1.4360974440232182,  "long": 29.84942437954281,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Walendu Bindi", "cases": 1, "lat": 1.4321075672255652,  "long": 29.850068109711728,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Walese Vonkutu", "cases": 1, "lat": 1.4373844995697864, "long": 29.85418798279281,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bahema-Sud", "cases": 1, "lat": 1.4432620440016608,  "long": 29.852771776421186,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Mambasa", "cases": 5, "lat": 1.5353044, "long": 28.7584771, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Babila-Babombi", "cases": 1, "lat": 1.364492975858531,  "long": 29.023389590790583,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Babila-Bakwanza", "cases": 1, "lat": 1.3433845219750926, "long": 29.041242374141916,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bandaka", "cases": 1, "lat": 1.3756477752357053, "long": 29.03446174969597,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bombo-Bagumba", "cases": 1, "lat": 1.3438135574159669, "long": 29.042272342412186,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mambasa", "cases": 1, "lat": 1.3735026255465166, "long": 29.037294162439217,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Walese-Dese", "cases": 1, "lat": 1.342269029476244, "long": 29.039525760358135,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Walese-Karo", "cases": 1, "lat": 1.3420116080580935, "long": 29.026136172844634,  "recovered": 0, "death": 0},
+                            ]}, 
+                            {"title": "Mahagi", "cases": 5, "lat": 2.3371576, "long": 30.5812044, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Alur-Djuganda", "cases": 1, "lat": 2.2432066, "long": 30.8609849,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Anghal", "cases": 1, "lat": 2.324728950967722,  "long": 30.967625768751176,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Djukoth", "cases": 1, "lat": 2.2667539786988846, "long": 30.968484075643072,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mokambu", "cases": 1, "lat": 2.2667539786988846,  "long": 30.98032871075117,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Panduru", "cases": 1, "lat": 2.3065477043023153,  "long": 30.94925800126471,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Wagongo", "cases": 1, "lat": 2.292997378665928, "long": 31.00573459475115,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walendu-Watsi", "cases": 1, "lat": 2.327130230227105,  "long": 30.972432287345775,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de War-Palara", "cases": 1, "lat": 2.328673907591598,  "long": 30.976380499048467,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Djugu", "cases": 5,  "lat": 1.8858299, "long": 30.3814198, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bahema-Baguru", "cases": 1, "lat": 1.9755595758424793, "long": 30.503325378682298,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema-Badjere", "cases": 1, "lat": 1.9603765048577813,  "long": 30.503754532128248,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema-Banywagi", "cases": 1, "lat": 1.973457972573353,  "long": 30.494613563729608,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bahema-Nord", "cases": 1, "lat": 1.9600333830142478,  "long": 30.50564280729041,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mabendi", "cases": 1, "lat": 1.972514394731208, "long": 30.501565849553927,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mambisa", "cases": 1, "lat": 2.09614, "long": 30.59825,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Ndo-Okebo", "cases": 1, "lat": 1.968182507773282,  "long": 30.511436378810675,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Banyali-Kilo", "cases": 1, "lat": 1.9815278, "long": 30.8687778,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walendu-Djatsi", "cases": 1, "lat": 1.7427, "long": 30.33182,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walendu-Pitsi", "cases": 1, "lat": 1.7523085, "long": 30.3599724,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walendu-Tatsi", "cases": 1, "lat": 1.7551208, "long": 30.3446545,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Aru", "cases": 5, "lat": 2.8594439, "long": 30.824167, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie d' Aluru", "cases": 1, "lat": 2.886875, "long": 30.76648,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kakwa", "cases": 1, "lat": 2.101623, "long": 29.05614,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Lu", "cases": 1, "lat": 2.101656, "long": 29.05594,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Nio-Kamule", "cases": 1, "lat": 2.82103, "long": 30.791208,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mari-Minza", "cases": 1, "lat": 2.86493, "long": 30.8337,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Otso", "cases": 1, "lat": 2.84298, "long": 30.7706,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Zaki", "cases": 1, "lat": 2.853957, "long": 30.82416,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndo", "cases": 1, "lat": 2.855329, "long": 30.799447,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+            
+
+                // ******************************* KASAI ************************************************* //
+                {"name": "Kasai", "lat": -8.7129757, "long": 24.9893335, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Tshikapa", "lat": 1.5557893, "long": 30.2519376, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Luebo", "cases": 5, "lat": -5.3535845, "long": 21.4197459, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Luebo-Kabambayi", "cases": 1, "lat": -5.8252544, "long": 20.9427826,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luebo-Lulengele", "cases": 1, "lat": -5.354609, "long": 21.4196601,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luebo-Wedi", "cases": 1, "lat": -5.353328, "long": 21.420132,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Djokupunda", "cases": 1, "lat": -5.4508953, "long": 20.9693846,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Tshikapa", "cases": 5, "lat": -6.416667, "long": 20.8, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bakwa-Nyambi", "cases": 1, "lat": -6.419396, "long": 20.807724,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bapende", "cases": 1, "lat": -6.41888, "long": 20.801416,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kasadisadi", "cases": 1, "lat": -6.414875, "long": 20.799914,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kasai-Kabambaie", "cases": 1, "lat": -6.4147052, "long": 20.7985837,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Kasai-Lunyeka", "cases": 1, "lat": -6.415984, "long": 20.798626,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Kasai-longatshimo", "cases": 1, "lat": -6.4164537, "long": 20.79937,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Lovua-longatshimo", "cases": 1, "lat": -6.4167416, "long": 20.799157,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Lovua-Lutshiku", "cases": 1, "lat": -6.416805, "long": 20.799002,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Tshikapa", "cases": 1, "lat": -6.416667, "long": 20.8,  "recovered": 0, "death": 0},
+                            ]}, 
+                            {"title": "Ilebo", "cases": 5, "lat": -4.3316446, "long": 20.5882508, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur d'ELK Basongo ", "cases": 1, "lat": -4.3271684, "long": 20.3700234,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur d'ELL Mapangu", "cases": 1, "lat": -4.331922, "long": 20.58793,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Malu-Malu", "cases": 1, "lat": -4.332064, "long": 20.587932,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Sud-Banga", "cases": 1, "lat": -4.332184, "long": 20.588213,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Mweka", "cases": 5,  "lat": -4.8476882, "long": 21.5612, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bakuba", "cases": 1, "lat": -4.8476882, "long": 21.5612,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Dekese", "cases": 5, "lat": -3.4925965, "long": 21.3772071, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Dekese-Ikolombe-Isolu", "cases": 1, "lat": -3.492597, "long": 21.377204,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yaelima", "cases": 1, "lat": -3.491479, "long": 21.377404,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+                // ******************************* KASAI CENTRAL  ************************************************* //
+                {"name": "Kasai Central", "lat": -5.9046896, "long": 21.4334417, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Kananga", "lat": -5.8951725, "long": 22.408589, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Dibaya", "cases": 5, "lat": -6.4873146, "long": 22.943906, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Dibanda", "cases": 1, "lat": -6.4873142, "long": 22.9439076,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Dibataie", "cases": 1, "lat": -6.4873131, "long": 22.9439097,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kamwandu", "cases": 1, "lat": -6.4873146, "long": 22.9439088,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kasangidi", "cases": 1, "lat": -6.4873145, "long": 22.9439095,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshishilu", "cases": 1, "lat": -6.4873131, "long": 22.9439059,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Luiza", "cases": 5, "lat": -7.1965439, "long": 22.3971878, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bambaie", "cases": 1, "lat": -7.198409, "long": 22.39509,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kabelekese", "cases": 1, "lat": -7.198408, "long": 22.39508,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kalunga", "cases": 1, "lat": -7.198409, "long": 22.395092,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Loatshi", "cases": 1, "lat": -7.207844, "long": 22.410999,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lueta", "cases": 1, "lat": -7.207362, "long": 22.401958,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lusanza", "cases": 1, "lat": -7.193152, "long": 22.387026,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mbushimaie", "cases": 1, "lat": -7.194959, "long": 22.406235,  "recovered": 0, "death": 0},
+                            ]}, 
+                            {"title": "Kazumba", "cases": 5, "lat": -7.3037537, "long": 22.0426809, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bulungu ", "cases": 1, "lat": -6.305148, "long": 21.747223,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kafuba", "cases": 1, "lat": -6.291498264980545,  "long": 22.142730606529877,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kavula", "cases": 1, "lat": -6.618998036240871, "long": 21.88056193835657,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Matamba", "cases": 1, "lat": -6.26684822704645,  "long": 22.24964874438629,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mboie", "cases": 1, "lat": -6.424719196538766,  "long": 21.74976079128383,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Miao", "cases": 1, "lat": -6.839405070422565,  "long": 21.80881230544594,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Muswaswa", "cases": 1, "lat": -6.432907128779832,  "long": 21.665990038635254,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mutefu", "cases": 1, "lat": -6.917119275129643,  "long": 21.622044725770433,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshitadi", "cases": 1, "lat": -6.92120914348589, "long": 21.646763964256895,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Demba", "cases": 5,  "lat": -5.4986424, "long": 22.2709368, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Diofwa", "cases": 1, "lat": -5.491729255203223,  "long": 22.27954309654531,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lombelo", "cases": 1, "lat": -5.479084485714535,  "long": 22.25980203803182,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lusonge", "cases": 1, "lat": -5.495573895467427,  "long": 22.258943731139922,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mamba", "cases": 1, "lat": -5.499333075282124,  "long": 22.25345056703182,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Muanzangoma", "cases": 1, "lat": -5.5018961388149705,  "long": 22.25087564635615,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshibote ", "cases": 1, "lat": -5.479597116714767,  "long": 22.25619714908587,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshibungu", "cases": 1, "lat": -5.500529172971484,  "long": 22.2875253506399,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Dimbelenge", "cases": 5, "lat": -5.5582871, "long": 23.1145547, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Kinduyi", "cases": 1, "lat": -5.820855985340767,  "long": 20.323985229799714,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lubi", "cases": 1, "lat": -6.585390444579588,  "long": 20.137217650124207,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lubudi", "cases": 1, "lat": -7.108971120712017,  "long": 21.191905158880033,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lukibu", "cases": 1, "lat": -3.0169997694639674,  "long": 21.774180554338983,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mashala", "cases": 1, "lat": -7.174377677974915,  "long": 20.818369999529015,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+            
+
+                // ******************************* KASAI ORIENTAL  ************************************************* //
+                {"name": "Kasai Oriental", "lat": -6.1536291, "long": 23.5960517, "livecases": 20, "recovered": 2, "death": 2,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Mbujimayi", "lat": -6.1258942, "long": 23.5998111, "ville_total_cases": 20, "recovered": 2, "death": 2,  "territoire": [
+                            
+                            {"title": "Miabi", "cases": 5, "lat": -6.2882282, "long": 23.2880174, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Kakangayi", "cases": 1, "lat": -6.2081399193739,  "long": 23.390836155107234,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshilundu", "cases": 1, "lat": -6.20843856498707,  "long": 23.38667336668156,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Movo-Nkatsha", "cases": 1, "lat": -6.206476033572325,  "long": 23.388304149776157,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Movo-Tshijiba", "cases": 1, "lat": -6.210315762106391,  "long": 23.39105073183021,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kabeya-Kamwanga", "cases": 5, "lat": -5.9988, "long": 23.25386, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Kalela", "cases": 1, "lat": -5.995993649772988,  "long": 23.25325470077459,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lac Mukamba", "cases": 1, "lat": -6.00709048301279, "long": 23.249563981139456,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mpemba", "cases": 1, "lat": -6.003249297078635,  "long": 23.266987611044847,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndomba", "cases": 1, "lat": -6.01093164184867,  "long": 23.24407081703135,  "recovered": 0, "death": 0},
+                            ]}, 
+                            {"title": "Lupatapata", "cases": 5, "lat": -6.0263656, "long": 23.6091605, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Kabala ", "cases": 1, "lat": -5.715931953870988,  "long": 23.577934457211466,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mudiba", "cases": 1, "lat": -6.291498264980545,  "long": 22.142730606529877,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mukumbi", "cases": 1, "lat": -6.618998036240871, "long": 21.88056193835657,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mulenda", "cases": 1, "lat": -6.26684822704645,  "long": 22.24964874438629,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Katanda", "cases": 5,  "lat": -6.0809369, "long": 23.9278807, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Baluba-Lubilanji", "cases": 1, "lat": -6.334816238313731, "long": 23.892731557275106,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Beno-Tshitolo,", "cases": 1, "lat": -6.335882569867668, "long": 23.90663612892374,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mutuayi", "cases": 1, "lat": -6.336095835914048, "long": 23.90672195961293,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nsangu", "cases": 1, "lat": -6.327821048705014, "long": 23.90127171084942,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Tshilende", "cases": 5, "lat": -5.5582871, "long": 23.1145547, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bakwa-Kalonji", "cases": 1, "lat": -6.217011525660917, "long": 23.75398614363712,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+                // ******************************* Kongo Central ************************************************* //
+                {"name": "Kongo Central", "lat": -5.7974001, "long": 13.4948203, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Matadi", "lat": -2.5103908, "long": 28.8336436, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Fizi", "cases": 5, "lat": -2.5020152, "long": 28.8692728, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Lulenge", "cases": 1, "lat": -4.0265394, "long": 28.2714086, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Mutambala", "cases": 0, "lat": -4.1651312, "long": 28.9458687, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ngandja", "cases": 1, "lat": 3.3207708, "long": 19.3899387, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tanganyika", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Itombwe", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Idjwi", "cases": 5, "lat": 2.6472081, "long": 19.7024405, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Secteur Banza", "cases": 1, "lat": 2.7132781, "long": 2.7132781, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bolingo", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ngambe-Doko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mongola", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndolo-Liboko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    
+                    {"ville_name": "Kamituga", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Kalehe", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    
+                    {"ville_name": "Kabare", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    {"ville_name": "Baraka", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    {"ville_name": "Uvira", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+
+                // ******************************* SUD KIVU ************************************************* //
+                {"name": "Sud Kivu", "lat": -3.2653155, "long": 27.8705717, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Bukavu", "lat": -2.5103908, "long": 28.8336436, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Fizi", "cases": 5, "lat": -2.5020152, "long": 28.8692728, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Lulenge", "cases": 1, "lat": -4.0265394, "long": 28.2714086, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Mutambala", "cases": 0, "lat": -4.1651312, "long": 28.9458687, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ngandja", "cases": 1, "lat": 3.3207708, "long": 19.3899387, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tanganyika", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Itombwe", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Idjwi", "cases": 5, "lat": 2.6472081, "long": 19.7024405, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Secteur Banza", "cases": 1, "lat": 2.7132781, "long": 2.7132781, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bolingo", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ngambe-Doko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mongola", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndolo-Liboko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    
+                    {"ville_name": "Kamituga", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Kalehe", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    
+                    {"ville_name": "Kabare", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    {"ville_name": "Baraka", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    {"ville_name": "Uvira", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+                // ******************************* SUD UBANGI ************************************************* //
+                {"name": "Sud Ubangi", "lat": -5.9010019, "long": 29.1778624, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Gemena", "lat": 3.2549286, "long": 19.7750831, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Gemena", "cases": 5, "lat": 3.2549286, "long": 19.7750831, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Banga-Kungu", "cases": 1, "lat": 2.78333, "long": 19.2, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Bonwase", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mbari", "cases": 1, "lat": 3.3207708, "long": 19.3899387, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nguya", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Budjala", "cases": 5, "lat": 2.6472081, "long": 19.7024405, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Secteur Banza", "cases": 1, "lat": 2.7132781, "long": 2.7132781, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bolingo", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ngambe-Doko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mongola", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Ndolo-Liboko", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kingu", "cases": 5, "lat": 2.8745751, "long": 18.5999788, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bombema", "cases": 1, "lat": -11.6399365, "long": 27.5316263,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lua", "cases": 1, "lat": 2.8745751, "long": 18.5999788,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Moanda", "cases": 1, "lat": 2.1960458, "long": 18.8536849,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Dongo", "cases": 2, "lat": 2.7213045, "long": 18.4059982,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Songo", "cases": 2, "lat": 1.3192299, "long": 24.2710572,  "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                    
+                    {"ville_name": "Zongo", "lat": 3.7682785, "long": 18.9664829, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Libenge", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur de Libenge Centre", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Nord", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Libenge-Sud", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+
+
+
+                // ******************************* TANGANYIKA ************************************************* //
+                {"name": "Tanganyika", "lat": -5.9010019, "long": 29.1778624, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Kalemie", "lat": -5.9460209, "long": 29.1967172, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Kalemie", "cases": 5, "lat": -5.9460209, "long": 29.1967172, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Chefferie de Benze", "cases": 1, "lat": -5.9528111, "long": 28.2105556, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Chefferie de Rutuku", "cases": 0, "lat": -7.0564439, "long": 29.1226669, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Tumbwe", "cases": 1, "lat": -11.4731389, "long": 27.3879444, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kabalo", "cases": 5, "lat": -6.0500915, "long": 26.9160693, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Chefferie Lukuswa", "cases": 1, "lat": -11.6465549, "long": 27.561054, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luela Luvunguyi", "cases": 0, "lat": -5.9635551, "long": 28.1754889, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Kongolo", "cases": 5, "lat": -5.3467605, "long": 27.0106581, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Baluba", "cases": 1, "lat": -11.6399365, "long": 27.5316263,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Basonge", "cases": 1, "lat": -11.7130012, "long": 27.4542117,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bayatshi", "cases": 1, "lat": 3.77734, "long": 25.52758,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bena Mambwe", "cases": 2, "lat": -7.33512, "long": 28.50302,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bena Muhona", "cases": 2, "lat": 1.3192299, "long": 24.2710572,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bena Mwembo", "cases": 2, "lat": 1.4027678, "long": 23.7381063,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bena Nkuvu", "cases": 2, "lat": 1.1360655, "long": 23.6233749,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Lubunda", "cases": 2, "lat": -5.1650077, "long": 26.6683169,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Munono ", "cases": 2, "lat": -2.1008055, "long": 21.1646637,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yambula ", "cases": 2, "lat": -11.719644, "long": 27.4495763,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Manono", "cases": 5, "lat": -7.2981166, "long": 27.396517, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bakongolo", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kiluba", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kamalondo", "cases": 1, "lat": -11.6841774, "long": 27.486228, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Kyofwe", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luvua", "cases": 1, "lat": -11.6989821, "long": 27.4773053, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nyemba", "cases": 1, "lat": -11.7064023, "long": 27.4525993, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Moba", "cases": 5, "lat": -7.0427487, "long": 29.7737268, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Bena Tanga", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kansabala", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kayabala", "cases": 1, "lat": -11.6917748, "long": 27.5214916, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Manda", "cases": 1, "lat": -11.7179305, "long": 27.4673822, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Nganie", "cases": 1, "lat": -7.0242048, "long": 29.7566883, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Bena Kamanya", "cases": 1, "lat": -5.335723, "long": 28.9423904, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Nyunzu", "cases": 5, "lat": -5.9577181, "long": 28.0117894, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Nord-Lukuga", "cases": 1, "lat": -11.7015441, "long": 27.4558018, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Sud-Lukuga", "cases": 0, "lat": -5.772812, "long": 28.0750551, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+            
+            
+            
+                // ******************************* TSHOPO ************************************************* //
+                {"name": "Tshopo", "lat": 0.4991493, "long": 25.1651226, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Kisangani", "lat": 0.5184021, "long": 25.2057292, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Bafwasende", "cases": 5, "lat": 0.9988842, "long": 27.1572905, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur Bafwakanda", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur Bakumu d'Ankumu", "cases": 0, "lat": -0.3656244, "long": 20.5187231, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Bakundumu", "cases": 1, "lat": 2.7445769, "long": 23.0915392, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Barumbi-Opienge", "cases": 0, "lat": 2.700495, "long": 24.013516, "recovered": 0, "death": 2},
+                                {"chefferie_name": "Secteur Bekeni-Kondolole", "cases": 0, "lat": 0.7725493, "long": 26.2592661, "recovered": 0, "death": 2},
+                                {"chefferie_name": "Secteur Bemeli", "cases": 0, "lat": 2.700495, "long": 24.013516, "recovered": 0, "death": 2},
+                            ]},
+                            {"title": "Banalia", "cases": 5, "lat": 1.5564193, "long": 25.3200682, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Chefferie Baboro", "cases": 1, "lat": 2.73877, "long": 23.78326, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Baboa", "cases": 0, "lat": 0.1609879, "long": 21.8856917, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Banalia-Bangba", "cases": 1, "lat": 0.6946195, "long": 21.3029977, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Popoy", "cases": 1, "lat": 0.6946195, "long": 21.3029977, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Basoko", "cases": 5, "lat": 0.6779431, "long": 22.4603878, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Wahanga", "cases": 1, "lat": 0.6779431, "long": 22.4603878,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yaliwasa", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yamndundu", "cases": 1, "lat": 3.77734, "long": 25.52758,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bangelema", "cases": 2, "lat": -2.1008055, "long": 21.1646637,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mongandjo", "cases": 2, "lat": 1.3192299, "long": 24.2710572,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bomenge", "cases": 2, "lat": 1.4027678, "long": 23.7381063,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lokutu", "cases": 2, "lat": 1.1360655, "long": 23.6233749,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mobango Itimbiri", "cases": 2, "lat": 2.1993753, "long": 23.0079031,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Turumbu", "cases": 2, "lat": -2.1008055, "long": 21.1646637,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Isangi", "cases": 5, "lat": 1.2324948, "long": 23.6056967, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Baluombila", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Balomboki", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Kombe", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Liutua", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yalihila", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yalikoka-Mboso", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bambelota", "cases": 1, "lat": -1.449851, "long": 20.9504992, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lokombe", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luete", "cases": 0, "lat": -0.21667, "long": 20.86667, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Turumbu", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yalikandja-Yanonge", "cases": 0, "lat": 0.5928669, "long": 24.7194674, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yaokandja", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yawamba-Basoa", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Opala", "cases": 5, "lat": -0.5096558, "long": 24.2298322, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kembe", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Mongo", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yalingo", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yamaie", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yapandu", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Yeyango", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Balinga-Lindja", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lye", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lobaie", "cases": 0, "lat": -0.9470395, "long": 21.6758805, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tooli", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Yawende-Loolo", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Ubundu", "cases": 5, "lat": -0.357654, "long": 25.43209, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Chefferie de Kirundu", "cases": 1, "lat": -0.794003, "long": 25.517238, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Walengola", "cases": 0, "lat": -1.743868, "long": 20.687038, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bakumu-Kilinga", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bakumu-Mandombe", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bakumu-Mangongo", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Mituku-Bamoya", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Bakumu-Bisikate", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walengola-Babira", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walengola-Baleka", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Walengola-Lowa", "cases": 0, "lat": -1.3952586, "long": 25.8138696, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Yahuma", "cases": 5, "lat": 0.9555088, "long": 23.571918, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bianga", "cases": 1, "lat": -1.593089, "long": 20.231656, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Monkoto", "cases": 0, "lat": -1.743868, "long": 20.687038, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nongo", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+            
+                // ******************************* TSHUAPA ************************************************* //
+                {"name": "Tshuapa", "lat": -0.1694655, "long": 22.2944977, "livecases": 0, "recovered": 0, "death": 0,
+                // ville: "buta", "territoire": ["Buta", "Aketi", "Bondo", "Ango", "Bombesa", "Poko"], 
+                "ville": [
+                    {"ville_name": "Boende", "lat": -0.2836634, "long": 20.8826368, "ville_total_cases": 0, "recovered": 0, "death": 0,  "territoire": [
+                            {"title": "Boende", "cases": 5, "lat": 1.2191683, "long": 19.8013697, "recovered": 2, "death": 2,   "chefferie":[
+                                {"chefferie_name": "Secteur Boluwa", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 1, "death": 0},
+                                {"chefferie_name": "Secteur Djera", "cases": 0, "lat": -0.3656244, "long": 20.5187231, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Lofoy", "cases": 1, "lat": 2.7445769, "long": 23.0915392, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur Wini", "cases": 0, "lat": 2.700495, "long": 24.013516, "recovered": 0, "death": 2},
+                            ]},
+                            {"title": "Befale", "cases": 5, "lat": 0.3924105, "long": 20.843124, "recovered": 2, "death": 2,  "chefferie":[
+                                {"chefferie_name": "Secteur de Bofumbo", "cases": 1, "lat": 2.73877, "long": 23.78326, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Duale", "cases": 0, "lat": 0.1609879, "long": 21.8856917, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lomako", "cases": 1, "lat": 0.6946195, "long": 21.3029977, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Djolu", "cases": 5, "lat": 0.6779431, "long": 22.4603878, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Djolu", "cases": 1, "lat": 0.6779431, "long": 22.4603878,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Lingomo", "cases": 1, "lat": 3.289, "long": 23.581881,  "recovered": 0, "death": 0},
+                                {"chefferie_name": "Chefferie de Luo", "cases": 1, "lat": 3.77734, "long": 25.52758,  "recovered": 0, "death": 0},
+                                {"chefferie_name": " Chefferie de Yala", "cases": 2, "lat": -2.1008055, "long": 21.1646637,  "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Ikela", "cases": 5, "lat": 0.1102076, "long": 22.1057174, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Lofome", "cases": 1, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Loile", "cases": 1, "lat": -1.449851, "long": 20.9504992, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Lokina", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tshuapa", "cases": 0, "lat": -0.21667, "long": 20.86667, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Tumenga", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Bokungu", "cases": 5, "lat": -0.609586, "long": 22.312214, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Lolaka", "cases": 1, "lat": -0.2402075, "long": 22.2033637, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Loombo", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luando", "cases": 0, "lat": 3.289, "long": 23.581881, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Luay", "cases": 0, "lat": -0.9470395, "long": 21.6758805, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nkole", "cases": 1, "lat": 3.57779, "long": 27.25847, "recovered": 0, "death": 0},
+                            ]},
+                            {"title": "Monkoto", "cases": 5, "lat": -1.743868, "long": 20.687038, "recovered": 0, "death": 2, "chefferie":[
+                                {"chefferie_name": "Secteur de Bianga", "cases": 1, "lat": -1.593089, "long": 20.231656, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Monkoto", "cases": 0, "lat": -1.743868, "long": 20.687038, "recovered": 0, "death": 0},
+                                {"chefferie_name": "Secteur de Nongo", "cases": 0, "lat": -1.208082, "long": 20.6006654, "recovered": 0, "death": 0},
+                            ]},
+                        ]
+                    },
+                ] 
+            },
+                {"name": "Haut-Katanga", "lat": -11.6047402, "long": 27.4131897, "livecases": 5285, "recovered": 15252465, "death": 15252465,
+                "ville": "Mbandaka", "territoire": [
+                    {"title": "Lubumbashi", "cases": 10, "lat": -11.6642316, "long": 27.482626},
+                    {"title": "Likasi", "cases": 5, "lat": -10.98916, "long": 26.739742},
+                    {"title": "Sakania", "cases": 5, "lat": -12.7486448, "long": 28.5562814},
+                    {"title": "Mitwaba", "cases": 5, "lat": -8.626463, "long": 27.34153},
+                    {"title": "Pweto", "cases": 5, "lat": -8.474106, "long": 28.89871},
+                    {"title": "Kambove", "cases": 5, "lat": -10.876069, "long": 26.595971},
+                    {"title": "Kasenga", "cases": 5, "lat": -11.6428088, "long": 27.5500258},
+                ],
+            },
+                {"name": "Haut-Lomami", "lat": -8.7129757, "long": 24.9893335, "livecases": 88922, "recovered": 15252465, "death": 15252465},
+                {"name": "Haut-Uele", "lat": 2.7936527, "long": 27.6435943, "livecases": 58152, "recovered": 15252465, "death": 15252465},
+                {"name": "Ituri", "lat": 2.1015973, "long": 29.0559738, "livecases": 7522, "recovered": 15252465, "death": 15252465},
+                {"name": "Kasai", "lat": -4.733396925592343, "long": 20.56064439211303, "livecases": 15252465, "recovered": 15252465, "death": 15252465},
+                {"name": "Kasai Central", "lat": -5.9046896, "long": 21.4334417, "livecases": 74152, "recovered": 15252465, "death": 15252465},
+                {"name": "Kasai oriental", "lat": -6.1536291, "long": 23.5960517, "livecases": 85417452, "recovered": 15252465, "death": 15252465},
+                {"name": "Kinshasa", "lat": -4.3217055, "long": 15.3125974},
+            ]
+        }

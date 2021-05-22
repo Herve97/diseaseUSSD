@@ -1,0 +1,72 @@
+<%- include('layouts/header.ejs') %>
+
+    <div class="row provi">
+        <div class="col-md-9">
+            <div class="title">
+                <div class="pt-5 pb-5 d-flex justify-content-between">
+                  <h1>Suivis Ebola</h1>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Sélectionner</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+            </div>
+            <div class="row ml-0 mr-0 mb-3 bloc">
+                <div class="col-md-2 bloc_O bloc_a p-0">
+                    <div class="b_in">
+                        <p>Nombre d'atteint</p>
+                        <h1>+55.0</h1>
+                        <p>Total</p>
+                    </div>
+                </div>
+                <div class="col-md-2 bloc_O bloc_g p-0">
+                    <div class="b_in">
+                        <p>Guérison</p>
+                        <h1>+55.0</h1>
+                        <p>Total</p>
+                    </div>
+                </div>
+                <div class="col-md-2 bloc_O bloc_m p-0">
+                    <div class="b_in">
+                        <p>Mort</p>
+                        <h1>+55.0</h1>
+                        <p>Total</p>
+                    </div>
+                </div>
+                <div class="col-md-6 bloc_O bloc_c p-0">
+                    <div class="b_in">
+                        
+                        <canvas id="lineChart"></canvas>
+
+                    </div>
+                </div>
+            </div>
+            <div id = "map"></div>
+        </div>
+        <div class="col-md-3 sidebar mt-5 p-0">
+            <div class="titre">
+                <h2>Cas par Province</h2>
+            </div>
+            
+            <div class="list_prov">
+                <ul class="unstyled">
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                    <li>Bas-Uele <small class="badge-danger float-right">20</small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+      
+<%- include('layouts/footer.ejs') %>
